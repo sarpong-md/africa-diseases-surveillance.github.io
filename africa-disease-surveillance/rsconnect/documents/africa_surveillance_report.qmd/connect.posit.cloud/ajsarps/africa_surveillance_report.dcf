@@ -1,0 +1,14 @@
+name: africa_surveillance_report
+title: africa_surveillance_report
+username: ajsarps
+account: ajsarps
+server: connect.posit.cloud
+hostUrl: https://api.connect.posit.cloud/v1
+appId: 019e981b-a792-62a1-326b-96458621f50a
+bundleId:
+url: https://connect.posit.cloud/ajsarps/content/019e981b-a792-62a1-326b-96458621f50a
+version: 1
+quarto_version: 1.9.36
+quarto_engines: knitr
+asMultiple: FALSE
+asStatic: FALSE

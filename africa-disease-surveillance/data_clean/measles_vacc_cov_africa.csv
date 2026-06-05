@@ -1,0 +1,2191 @@
+entity,code,year,mcv1_pct
+Algeria,DZA,1985,68
+Algeria,DZA,1986,67
+Algeria,DZA,1987,73
+Algeria,DZA,1988,81
+Algeria,DZA,1989,82
+Algeria,DZA,1990,83
+Algeria,DZA,1991,85
+Algeria,DZA,1992,86
+Algeria,DZA,1993,87
+Algeria,DZA,1994,88
+Algeria,DZA,1995,89
+Algeria,DZA,1996,90
+Algeria,DZA,1997,92
+Algeria,DZA,1998,84
+Algeria,DZA,1999,83
+Algeria,DZA,2000,80
+Algeria,DZA,2001,83
+Algeria,DZA,2002,81
+Algeria,DZA,2003,84
+Algeria,DZA,2004,81
+Algeria,DZA,2005,83
+Algeria,DZA,2006,91
+Algeria,DZA,2007,92
+Algeria,DZA,2008,88
+Algeria,DZA,2009,92
+Algeria,DZA,2010,95
+Algeria,DZA,2011,95
+Algeria,DZA,2012,95
+Algeria,DZA,2013,95
+Algeria,DZA,2014,95
+Algeria,DZA,2015,95
+Algeria,DZA,2016,94
+Algeria,DZA,2017,88
+Algeria,DZA,2018,80
+Algeria,DZA,2019,80
+Algeria,DZA,2020,80
+Algeria,DZA,2021,79
+Algeria,DZA,2022,79
+Algeria,DZA,2023,99
+Algeria,DZA,2024,94
+Angola,AGO,1983,26
+Angola,AGO,1984,35
+Angola,AGO,1985,44
+Angola,AGO,1986,44
+Angola,AGO,1987,55
+Angola,AGO,1988,56
+Angola,AGO,1989,48
+Angola,AGO,1990,38
+Angola,AGO,1991,39
+Angola,AGO,1992,39
+Angola,AGO,1993,47
+Angola,AGO,1994,44
+Angola,AGO,1995,46
+Angola,AGO,1996,62
+Angola,AGO,1997,78
+Angola,AGO,1998,62
+Angola,AGO,1999,46
+Angola,AGO,2000,41
+Angola,AGO,2001,72
+Angola,AGO,2002,74
+Angola,AGO,2003,62
+Angola,AGO,2004,64
+Angola,AGO,2005,45
+Angola,AGO,2006,48
+Angola,AGO,2007,58
+Angola,AGO,2008,58
+Angola,AGO,2009,58
+Angola,AGO,2010,59
+Angola,AGO,2011,59
+Angola,AGO,2012,59
+Angola,AGO,2013,59
+Angola,AGO,2014,56
+Angola,AGO,2015,52
+Angola,AGO,2016,49
+Angola,AGO,2017,47
+Angola,AGO,2018,56
+Angola,AGO,2019,59
+Angola,AGO,2020,54
+Angola,AGO,2021,48
+Angola,AGO,2022,50
+Angola,AGO,2023,63
+Angola,AGO,2024,53
+Benin,BEN,1985,23
+Benin,BEN,1986,20
+Benin,BEN,1987,26
+Benin,BEN,1988,30
+Benin,BEN,1989,48
+Benin,BEN,1990,79
+Benin,BEN,1991,60
+Benin,BEN,1992,70
+Benin,BEN,1993,67
+Benin,BEN,1994,78
+Benin,BEN,1995,65
+Benin,BEN,1996,60
+Benin,BEN,1997,66
+Benin,BEN,1998,67
+Benin,BEN,1999,69
+Benin,BEN,2000,70
+Benin,BEN,2001,68
+Benin,BEN,2002,66
+Benin,BEN,2003,65
+Benin,BEN,2004,63
+Benin,BEN,2005,61
+Benin,BEN,2006,66
+Benin,BEN,2007,70
+Benin,BEN,2008,66
+Benin,BEN,2009,71
+Benin,BEN,2010,68
+Benin,BEN,2011,70
+Benin,BEN,2012,74
+Benin,BEN,2013,68
+Benin,BEN,2014,65
+Benin,BEN,2015,67
+Benin,BEN,2016,68
+Benin,BEN,2017,65
+Benin,BEN,2018,61
+Benin,BEN,2019,58
+Benin,BEN,2020,54
+Benin,BEN,2021,53
+Benin,BEN,2022,52
+Benin,BEN,2023,52
+Benin,BEN,2024,44
+Botswana,BWA,1980,63
+Botswana,BWA,1981,70
+Botswana,BWA,1982,75
+Botswana,BWA,1983,79
+Botswana,BWA,1984,82
+Botswana,BWA,1985,85
+Botswana,BWA,1986,91
+Botswana,BWA,1987,87
+Botswana,BWA,1988,87
+Botswana,BWA,1989,87
+Botswana,BWA,1990,87
+Botswana,BWA,1991,88
+Botswana,BWA,1992,88
+Botswana,BWA,1993,88
+Botswana,BWA,1994,88
+Botswana,BWA,1995,89
+Botswana,BWA,1996,89
+Botswana,BWA,1997,89
+Botswana,BWA,1998,89
+Botswana,BWA,1999,90
+Botswana,BWA,2000,91
+Botswana,BWA,2001,91
+Botswana,BWA,2002,92
+Botswana,BWA,2003,92
+Botswana,BWA,2004,93
+Botswana,BWA,2005,93
+Botswana,BWA,2006,94
+Botswana,BWA,2007,95
+Botswana,BWA,2008,95
+Botswana,BWA,2009,96
+Botswana,BWA,2010,96
+Botswana,BWA,2011,97
+Botswana,BWA,2012,97
+Botswana,BWA,2013,97
+Botswana,BWA,2014,97
+Botswana,BWA,2015,97
+Botswana,BWA,2016,97
+Botswana,BWA,2017,97
+Botswana,BWA,2018,97
+Botswana,BWA,2019,97
+Botswana,BWA,2020,87
+Botswana,BWA,2021,97
+Botswana,BWA,2022,90
+Botswana,BWA,2023,97
+Botswana,BWA,2024,97
+Burkina Faso,BFA,1985,38
+Burkina Faso,BFA,1986,40
+Burkina Faso,BFA,1987,37
+Burkina Faso,BFA,1988,52
+Burkina Faso,BFA,1989,66
+Burkina Faso,BFA,1990,79
+Burkina Faso,BFA,1991,69
+Burkina Faso,BFA,1992,60
+Burkina Faso,BFA,1993,50
+Burkina Faso,BFA,1994,45
+Burkina Faso,BFA,1995,43
+Burkina Faso,BFA,1996,40
+Burkina Faso,BFA,1997,41
+Burkina Faso,BFA,1998,24
+Burkina Faso,BFA,1999,36
+Burkina Faso,BFA,2000,48
+Burkina Faso,BFA,2001,63
+Burkina Faso,BFA,2002,64
+Burkina Faso,BFA,2003,76
+Burkina Faso,BFA,2004,78
+Burkina Faso,BFA,2005,84
+Burkina Faso,BFA,2006,88
+Burkina Faso,BFA,2007,94
+Burkina Faso,BFA,2008,94
+Burkina Faso,BFA,2009,94
+Burkina Faso,BFA,2010,92
+Burkina Faso,BFA,2011,89
+Burkina Faso,BFA,2012,87
+Burkina Faso,BFA,2013,82
+Burkina Faso,BFA,2014,88
+Burkina Faso,BFA,2015,88
+Burkina Faso,BFA,2016,88
+Burkina Faso,BFA,2017,88
+Burkina Faso,BFA,2018,88
+Burkina Faso,BFA,2019,88
+Burkina Faso,BFA,2020,88
+Burkina Faso,BFA,2021,88
+Burkina Faso,BFA,2022,88
+Burkina Faso,BFA,2023,88
+Burkina Faso,BFA,2024,88
+Burundi,BDI,1981,28
+Burundi,BDI,1982,40
+Burundi,BDI,1983,54
+Burundi,BDI,1984,27
+Burundi,BDI,1985,32
+Burundi,BDI,1986,59
+Burundi,BDI,1987,54
+Burundi,BDI,1988,46
+Burundi,BDI,1989,73
+Burundi,BDI,1990,74
+Burundi,BDI,1991,74
+Burundi,BDI,1992,69
+Burundi,BDI,1993,69
+Burundi,BDI,1994,42
+Burundi,BDI,1995,80
+Burundi,BDI,1996,79
+Burundi,BDI,1997,77
+Burundi,BDI,1998,68
+Burundi,BDI,1999,70
+Burundi,BDI,2000,72
+Burundi,BDI,2001,73
+Burundi,BDI,2002,75
+Burundi,BDI,2003,76
+Burundi,BDI,2004,78
+Burundi,BDI,2005,87
+Burundi,BDI,2006,92
+Burundi,BDI,2007,88
+Burundi,BDI,2008,84
+Burundi,BDI,2009,91
+Burundi,BDI,2010,92
+Burundi,BDI,2011,93
+Burundi,BDI,2012,93
+Burundi,BDI,2013,98
+Burundi,BDI,2014,94
+Burundi,BDI,2015,93
+Burundi,BDI,2016,93
+Burundi,BDI,2017,90
+Burundi,BDI,2018,88
+Burundi,BDI,2019,92
+Burundi,BDI,2020,90
+Burundi,BDI,2021,90
+Burundi,BDI,2022,89
+Burundi,BDI,2023,86
+Burundi,BDI,2024,86
+Cameroon,CMR,1981,16
+Cameroon,CMR,1982,21
+Cameroon,CMR,1983,25
+Cameroon,CMR,1984,31
+Cameroon,CMR,1985,39
+Cameroon,CMR,1986,44
+Cameroon,CMR,1987,44
+Cameroon,CMR,1988,48
+Cameroon,CMR,1989,56
+Cameroon,CMR,1990,56
+Cameroon,CMR,1991,48
+Cameroon,CMR,1992,37
+Cameroon,CMR,1993,32
+Cameroon,CMR,1994,38
+Cameroon,CMR,1995,46
+Cameroon,CMR,1996,39
+Cameroon,CMR,1997,43
+Cameroon,CMR,1998,47
+Cameroon,CMR,1999,46
+Cameroon,CMR,2000,49
+Cameroon,CMR,2001,51
+Cameroon,CMR,2002,53
+Cameroon,CMR,2003,61
+Cameroon,CMR,2004,64
+Cameroon,CMR,2005,68
+Cameroon,CMR,2006,73
+Cameroon,CMR,2007,74
+Cameroon,CMR,2008,80
+Cameroon,CMR,2009,74
+Cameroon,CMR,2010,79
+Cameroon,CMR,2011,76
+Cameroon,CMR,2012,74
+Cameroon,CMR,2013,71
+Cameroon,CMR,2014,71
+Cameroon,CMR,2015,71
+Cameroon,CMR,2016,72
+Cameroon,CMR,2017,67
+Cameroon,CMR,2018,61
+Cameroon,CMR,2019,61
+Cameroon,CMR,2020,63
+Cameroon,CMR,2021,65
+Cameroon,CMR,2022,68
+Cameroon,CMR,2023,71
+Cameroon,CMR,2024,71
+Cape Verde,CPV,1985,54
+Cape Verde,CPV,1986,58
+Cape Verde,CPV,1987,75
+Cape Verde,CPV,1988,80
+Cape Verde,CPV,1989,84
+Cape Verde,CPV,1990,79
+Cape Verde,CPV,1991,76
+Cape Verde,CPV,1992,82
+Cape Verde,CPV,1993,88
+Cape Verde,CPV,1994,87
+Cape Verde,CPV,1995,85
+Cape Verde,CPV,1996,84
+Cape Verde,CPV,1997,83
+Cape Verde,CPV,1998,84
+Cape Verde,CPV,1999,85
+Cape Verde,CPV,2000,86
+Cape Verde,CPV,2001,88
+Cape Verde,CPV,2002,89
+Cape Verde,CPV,2003,90
+Cape Verde,CPV,2004,91
+Cape Verde,CPV,2005,93
+Cape Verde,CPV,2006,94
+Cape Verde,CPV,2007,96
+Cape Verde,CPV,2008,97
+Cape Verde,CPV,2009,97
+Cape Verde,CPV,2010,97
+Cape Verde,CPV,2011,96
+Cape Verde,CPV,2012,91
+Cape Verde,CPV,2013,91
+Cape Verde,CPV,2014,93
+Cape Verde,CPV,2015,92
+Cape Verde,CPV,2016,93
+Cape Verde,CPV,2017,96
+Cape Verde,CPV,2018,99
+Cape Verde,CPV,2019,98
+Cape Verde,CPV,2020,95
+Cape Verde,CPV,2021,95
+Cape Verde,CPV,2022,95
+Cape Verde,CPV,2023,95
+Cape Verde,CPV,2024,95
+Central African Republic,CAF,1980,12
+Central African Republic,CAF,1981,15
+Central African Republic,CAF,1982,16
+Central African Republic,CAF,1983,16
+Central African Republic,CAF,1984,19
+Central African Republic,CAF,1985,23
+Central African Republic,CAF,1986,24
+Central African Republic,CAF,1987,17
+Central African Republic,CAF,1988,40
+Central African Republic,CAF,1989,69
+Central African Republic,CAF,1990,82
+Central African Republic,CAF,1991,57
+Central African Republic,CAF,1992,32
+Central African Republic,CAF,1993,42
+Central African Republic,CAF,1994,52
+Central African Republic,CAF,1995,46
+Central African Republic,CAF,1996,44
+Central African Republic,CAF,1997,42
+Central African Republic,CAF,1998,37
+Central African Republic,CAF,1999,37
+Central African Republic,CAF,2000,36
+Central African Republic,CAF,2001,35
+Central African Republic,CAF,2002,42
+Central African Republic,CAF,2003,49
+Central African Republic,CAF,2004,55
+Central African Republic,CAF,2005,62
+Central African Republic,CAF,2006,61
+Central African Republic,CAF,2007,59
+Central African Republic,CAF,2008,58
+Central African Republic,CAF,2009,56
+Central African Republic,CAF,2010,53
+Central African Republic,CAF,2011,49
+Central African Republic,CAF,2012,48
+Central African Republic,CAF,2013,25
+Central African Republic,CAF,2014,47
+Central African Republic,CAF,2015,46
+Central African Republic,CAF,2016,45
+Central African Republic,CAF,2017,41
+Central African Republic,CAF,2018,39
+Central African Republic,CAF,2019,37
+Central African Republic,CAF,2020,36
+Central African Republic,CAF,2021,34
+Central African Republic,CAF,2022,32
+Central African Republic,CAF,2023,39
+Central African Republic,CAF,2024,41
+Chad,TCD,1984,10
+Chad,TCD,1985,7
+Chad,TCD,1986,12
+Chad,TCD,1987,16
+Chad,TCD,1988,17
+Chad,TCD,1989,32
+Chad,TCD,1990,32
+Chad,TCD,1991,28
+Chad,TCD,1992,25
+Chad,TCD,1993,19
+Chad,TCD,1994,24
+Chad,TCD,1995,26
+Chad,TCD,1996,22
+Chad,TCD,1997,30
+Chad,TCD,1998,20
+Chad,TCD,1999,30
+Chad,TCD,2000,28
+Chad,TCD,2001,26
+Chad,TCD,2002,25
+Chad,TCD,2003,23
+Chad,TCD,2004,16
+Chad,TCD,2005,27
+Chad,TCD,2006,39
+Chad,TCD,2007,31
+Chad,TCD,2008,27
+Chad,TCD,2009,36
+Chad,TCD,2010,46
+Chad,TCD,2011,54
+Chad,TCD,2012,63
+Chad,TCD,2013,57
+Chad,TCD,2014,45
+Chad,TCD,2015,46
+Chad,TCD,2016,37
+Chad,TCD,2017,37
+Chad,TCD,2018,41
+Chad,TCD,2019,40
+Chad,TCD,2020,45
+Chad,TCD,2021,53
+Chad,TCD,2022,54
+Chad,TCD,2023,63
+Chad,TCD,2024,66
+Comoros,COM,1984,42
+Comoros,COM,1985,18
+Comoros,COM,1986,71
+Comoros,COM,1987,71
+Comoros,COM,1988,40
+Comoros,COM,1989,85
+Comoros,COM,1990,87
+Comoros,COM,1991,40
+Comoros,COM,1992,51
+Comoros,COM,1993,56
+Comoros,COM,1994,59
+Comoros,COM,1995,69
+Comoros,COM,1996,43
+Comoros,COM,1997,49
+Comoros,COM,1998,67
+Comoros,COM,1999,69
+Comoros,COM,2000,70
+Comoros,COM,2001,70
+Comoros,COM,2002,71
+Comoros,COM,2003,67
+Comoros,COM,2004,76
+Comoros,COM,2005,67
+Comoros,COM,2006,66
+Comoros,COM,2007,65
+Comoros,COM,2008,76
+Comoros,COM,2009,79
+Comoros,COM,2010,72
+Comoros,COM,2011,79
+Comoros,COM,2012,85
+Comoros,COM,2013,82
+Comoros,COM,2014,80
+Comoros,COM,2015,81
+Comoros,COM,2016,77
+Comoros,COM,2017,75
+Comoros,COM,2018,74
+Comoros,COM,2019,76
+Comoros,COM,2020,75
+Comoros,COM,2021,68
+Comoros,COM,2022,71
+Comoros,COM,2023,70
+Comoros,COM,2024,70
+Congo,COG,1980,49
+Congo,COG,1981,49
+Congo,COG,1982,55
+Congo,COG,1983,59
+Congo,COG,1984,52
+Congo,COG,1985,67
+Congo,COG,1986,69
+Congo,COG,1987,69
+Congo,COG,1988,73
+Congo,COG,1989,75
+Congo,COG,1990,75
+Congo,COG,1991,64
+Congo,COG,1992,60
+Congo,COG,1993,55
+Congo,COG,1994,47
+Congo,COG,1995,38
+Congo,COG,1996,42
+Congo,COG,1997,18
+Congo,COG,1998,21
+Congo,COG,1999,23
+Congo,COG,2000,34
+Congo,COG,2001,35
+Congo,COG,2002,37
+Congo,COG,2003,50
+Congo,COG,2004,65
+Congo,COG,2005,54
+Congo,COG,2006,61
+Congo,COG,2007,59
+Congo,COG,2008,69
+Congo,COG,2009,63
+Congo,COG,2010,75
+Congo,COG,2011,83
+Congo,COG,2012,80
+Congo,COG,2013,80
+Congo,COG,2014,80
+Congo,COG,2015,80
+Congo,COG,2016,67
+Congo,COG,2017,70
+Congo,COG,2018,75
+Congo,COG,2019,73
+Congo,COG,2020,68
+Congo,COG,2021,68
+Congo,COG,2022,65
+Congo,COG,2023,65
+Congo,COG,2024,72
+Cote d'Ivoire,CIV,1984,31
+Cote d'Ivoire,CIV,1985,31
+Cote d'Ivoire,CIV,1986,31
+Cote d'Ivoire,CIV,1987,30
+Cote d'Ivoire,CIV,1988,31
+Cote d'Ivoire,CIV,1989,41
+Cote d'Ivoire,CIV,1990,56
+Cote d'Ivoire,CIV,1991,57
+Cote d'Ivoire,CIV,1992,54
+Cote d'Ivoire,CIV,1993,52
+Cote d'Ivoire,CIV,1994,55
+Cote d'Ivoire,CIV,1995,57
+Cote d'Ivoire,CIV,1996,65
+Cote d'Ivoire,CIV,1997,68
+Cote d'Ivoire,CIV,1998,66
+Cote d'Ivoire,CIV,1999,57
+Cote d'Ivoire,CIV,2000,68
+Cote d'Ivoire,CIV,2001,71
+Cote d'Ivoire,CIV,2002,71
+Cote d'Ivoire,CIV,2003,70
+Cote d'Ivoire,CIV,2004,78
+Cote d'Ivoire,CIV,2005,84
+Cote d'Ivoire,CIV,2006,73
+Cote d'Ivoire,CIV,2007,67
+Cote d'Ivoire,CIV,2008,63
+Cote d'Ivoire,CIV,2009,67
+Cote d'Ivoire,CIV,2010,64
+Cote d'Ivoire,CIV,2011,49
+Cote d'Ivoire,CIV,2012,74
+Cote d'Ivoire,CIV,2013,70
+Cote d'Ivoire,CIV,2014,59
+Cote d'Ivoire,CIV,2015,67
+Cote d'Ivoire,CIV,2016,73
+Cote d'Ivoire,CIV,2017,70
+Cote d'Ivoire,CIV,2018,74
+Cote d'Ivoire,CIV,2019,71
+Cote d'Ivoire,CIV,2020,63
+Cote d'Ivoire,CIV,2021,65
+Cote d'Ivoire,CIV,2022,62
+Cote d'Ivoire,CIV,2023,70
+Cote d'Ivoire,CIV,2024,75
+Democratic Republic of Congo,COD,1980,18
+Democratic Republic of Congo,COD,1981,23
+Democratic Republic of Congo,COD,1982,25
+Democratic Republic of Congo,COD,1983,30
+Democratic Republic of Congo,COD,1984,30
+Democratic Republic of Congo,COD,1985,40
+Democratic Republic of Congo,COD,1986,39
+Democratic Republic of Congo,COD,1987,41
+Democratic Republic of Congo,COD,1988,44
+Democratic Republic of Congo,COD,1989,41
+Democratic Republic of Congo,COD,1990,38
+Democratic Republic of Congo,COD,1991,17
+Democratic Republic of Congo,COD,1992,25
+Democratic Republic of Congo,COD,1993,33
+Democratic Republic of Congo,COD,1994,39
+Democratic Republic of Congo,COD,1995,27
+Democratic Republic of Congo,COD,1996,21
+Democratic Republic of Congo,COD,1997,20
+Democratic Republic of Congo,COD,1998,20
+Democratic Republic of Congo,COD,1999,15
+Democratic Republic of Congo,COD,2000,26
+Democratic Republic of Congo,COD,2001,34
+Democratic Republic of Congo,COD,2002,41
+Democratic Republic of Congo,COD,2003,48
+Democratic Republic of Congo,COD,2004,57
+Democratic Republic of Congo,COD,2005,61
+Democratic Republic of Congo,COD,2006,63
+Democratic Republic of Congo,COD,2007,64
+Democratic Republic of Congo,COD,2008,64
+Democratic Republic of Congo,COD,2009,65
+Democratic Republic of Congo,COD,2010,66
+Democratic Republic of Congo,COD,2011,66
+Democratic Republic of Congo,COD,2012,69
+Democratic Republic of Congo,COD,2013,68
+Democratic Republic of Congo,COD,2014,69
+Democratic Republic of Congo,COD,2015,65
+Democratic Republic of Congo,COD,2016,63
+Democratic Republic of Congo,COD,2017,65
+Democratic Republic of Congo,COD,2018,64
+Democratic Republic of Congo,COD,2019,65
+Democratic Republic of Congo,COD,2020,62
+Democratic Republic of Congo,COD,2021,55
+Democratic Republic of Congo,COD,2022,56
+Democratic Republic of Congo,COD,2023,52
+Democratic Republic of Congo,COD,2024,55
+Djibouti,DJI,1982,15
+Djibouti,DJI,1983,18
+Djibouti,DJI,1984,20
+Djibouti,DJI,1985,27
+Djibouti,DJI,1986,19
+Djibouti,DJI,1987,22
+Djibouti,DJI,1988,68
+Djibouti,DJI,1989,75
+Djibouti,DJI,1990,85
+Djibouti,DJI,1991,53
+Djibouti,DJI,1992,41
+Djibouti,DJI,1993,41
+Djibouti,DJI,1994,42
+Djibouti,DJI,1995,41
+Djibouti,DJI,1996,41
+Djibouti,DJI,1997,31
+Djibouti,DJI,1998,21
+Djibouti,DJI,1999,23
+Djibouti,DJI,2000,50
+Djibouti,DJI,2001,49
+Djibouti,DJI,2002,62
+Djibouti,DJI,2003,66
+Djibouti,DJI,2004,60
+Djibouti,DJI,2005,65
+Djibouti,DJI,2006,67
+Djibouti,DJI,2007,74
+Djibouti,DJI,2008,73
+Djibouti,DJI,2009,84
+Djibouti,DJI,2010,85
+Djibouti,DJI,2011,84
+Djibouti,DJI,2012,83
+Djibouti,DJI,2013,80
+Djibouti,DJI,2014,71
+Djibouti,DJI,2015,74
+Djibouti,DJI,2016,75
+Djibouti,DJI,2017,81
+Djibouti,DJI,2018,86
+Djibouti,DJI,2019,83
+Djibouti,DJI,2020,62
+Djibouti,DJI,2021,50
+Djibouti,DJI,2022,50
+Djibouti,DJI,2023,76
+Djibouti,DJI,2024,75
+Egypt,EGY,1980,41
+Egypt,EGY,1981,41
+Egypt,EGY,1982,41
+Egypt,EGY,1983,41
+Egypt,EGY,1984,47
+Egypt,EGY,1985,74
+Egypt,EGY,1986,78
+Egypt,EGY,1987,76
+Egypt,EGY,1988,85
+Egypt,EGY,1989,86
+Egypt,EGY,1990,86
+Egypt,EGY,1991,89
+Egypt,EGY,1992,89
+Egypt,EGY,1993,89
+Egypt,EGY,1994,89
+Egypt,EGY,1995,89
+Egypt,EGY,1996,92
+Egypt,EGY,1997,92
+Egypt,EGY,1998,98
+Egypt,EGY,1999,96
+Egypt,EGY,2000,98
+Egypt,EGY,2001,97
+Egypt,EGY,2002,97
+Egypt,EGY,2003,98
+Egypt,EGY,2004,97
+Egypt,EGY,2005,98
+Egypt,EGY,2006,98
+Egypt,EGY,2007,97
+Egypt,EGY,2008,92
+Egypt,EGY,2009,95
+Egypt,EGY,2010,96
+Egypt,EGY,2011,96
+Egypt,EGY,2012,93
+Egypt,EGY,2013,96
+Egypt,EGY,2014,93
+Egypt,EGY,2015,92
+Egypt,EGY,2016,95
+Egypt,EGY,2017,94
+Egypt,EGY,2018,94
+Egypt,EGY,2019,95
+Egypt,EGY,2020,94
+Egypt,EGY,2021,96
+Egypt,EGY,2022,96
+Egypt,EGY,2023,96
+Egypt,EGY,2024,97
+Equatorial Guinea,GNQ,1985,11
+Equatorial Guinea,GNQ,1986,17
+Equatorial Guinea,GNQ,1987,32
+Equatorial Guinea,GNQ,1988,46
+Equatorial Guinea,GNQ,1989,18
+Equatorial Guinea,GNQ,1990,88
+Equatorial Guinea,GNQ,1991,85
+Equatorial Guinea,GNQ,1992,82
+Equatorial Guinea,GNQ,1993,79
+Equatorial Guinea,GNQ,1994,80
+Equatorial Guinea,GNQ,1995,81
+Equatorial Guinea,GNQ,1996,81
+Equatorial Guinea,GNQ,1997,82
+Equatorial Guinea,GNQ,1998,82
+Equatorial Guinea,GNQ,1999,51
+Equatorial Guinea,GNQ,2000,50
+Equatorial Guinea,GNQ,2001,50
+Equatorial Guinea,GNQ,2002,49
+Equatorial Guinea,GNQ,2003,48
+Equatorial Guinea,GNQ,2004,48
+Equatorial Guinea,GNQ,2005,47
+Equatorial Guinea,GNQ,2006,47
+Equatorial Guinea,GNQ,2007,46
+Equatorial Guinea,GNQ,2008,45
+Equatorial Guinea,GNQ,2009,45
+Equatorial Guinea,GNQ,2010,44
+Equatorial Guinea,GNQ,2011,46
+Equatorial Guinea,GNQ,2012,49
+Equatorial Guinea,GNQ,2013,51
+Equatorial Guinea,GNQ,2014,53
+Equatorial Guinea,GNQ,2015,50
+Equatorial Guinea,GNQ,2016,53
+Equatorial Guinea,GNQ,2017,52
+Equatorial Guinea,GNQ,2018,52
+Equatorial Guinea,GNQ,2019,51
+Equatorial Guinea,GNQ,2020,50
+Equatorial Guinea,GNQ,2021,50
+Equatorial Guinea,GNQ,2022,49
+Equatorial Guinea,GNQ,2023,61
+Equatorial Guinea,GNQ,2024,53
+Eritrea,ERI,1993,34
+Eritrea,ERI,1994,51
+Eritrea,ERI,1995,58
+Eritrea,ERI,1996,66
+Eritrea,ERI,1997,73
+Eritrea,ERI,1998,79
+Eritrea,ERI,1999,88
+Eritrea,ERI,2000,76
+Eritrea,ERI,2001,84
+Eritrea,ERI,2002,83
+Eritrea,ERI,2003,92
+Eritrea,ERI,2004,96
+Eritrea,ERI,2005,95
+Eritrea,ERI,2006,94
+Eritrea,ERI,2007,92
+Eritrea,ERI,2008,91
+Eritrea,ERI,2009,93
+Eritrea,ERI,2010,95
+Eritrea,ERI,2011,96
+Eritrea,ERI,2012,98
+Eritrea,ERI,2013,94
+Eritrea,ERI,2014,90
+Eritrea,ERI,2015,97
+Eritrea,ERI,2016,95
+Eritrea,ERI,2017,93
+Eritrea,ERI,2018,93
+Eritrea,ERI,2019,93
+Eritrea,ERI,2020,93
+Eritrea,ERI,2021,93
+Eritrea,ERI,2022,93
+Eritrea,ERI,2023,93
+Eritrea,ERI,2024,93
+Eswatini,SWZ,1981,30
+Eswatini,SWZ,1982,38
+Eswatini,SWZ,1983,46
+Eswatini,SWZ,1984,50
+Eswatini,SWZ,1985,54
+Eswatini,SWZ,1986,74
+Eswatini,SWZ,1987,65
+Eswatini,SWZ,1988,85
+Eswatini,SWZ,1989,85
+Eswatini,SWZ,1990,85
+Eswatini,SWZ,1991,80
+Eswatini,SWZ,1992,85
+Eswatini,SWZ,1993,85
+Eswatini,SWZ,1994,94
+Eswatini,SWZ,1995,94
+Eswatini,SWZ,1996,82
+Eswatini,SWZ,1997,92
+Eswatini,SWZ,1998,92
+Eswatini,SWZ,1999,92
+Eswatini,SWZ,2000,92
+Eswatini,SWZ,2001,93
+Eswatini,SWZ,2002,93
+Eswatini,SWZ,2003,93
+Eswatini,SWZ,2004,93
+Eswatini,SWZ,2005,93
+Eswatini,SWZ,2006,93
+Eswatini,SWZ,2007,94
+Eswatini,SWZ,2008,94
+Eswatini,SWZ,2009,94
+Eswatini,SWZ,2010,94
+Eswatini,SWZ,2011,87
+Eswatini,SWZ,2012,88
+Eswatini,SWZ,2013,97
+Eswatini,SWZ,2014,97
+Eswatini,SWZ,2015,89
+Eswatini,SWZ,2016,89
+Eswatini,SWZ,2017,89
+Eswatini,SWZ,2018,85
+Eswatini,SWZ,2019,81
+Eswatini,SWZ,2020,76
+Eswatini,SWZ,2021,80
+Eswatini,SWZ,2022,83
+Eswatini,SWZ,2023,85
+Eswatini,SWZ,2024,85
+Ethiopia,ETH,1980,4
+Ethiopia,ETH,1981,3
+Ethiopia,ETH,1982,7
+Ethiopia,ETH,1983,7
+Ethiopia,ETH,1984,8
+Ethiopia,ETH,1985,12
+Ethiopia,ETH,1986,10
+Ethiopia,ETH,1987,13
+Ethiopia,ETH,1988,15
+Ethiopia,ETH,1989,23
+Ethiopia,ETH,1990,38
+Ethiopia,ETH,1991,17
+Ethiopia,ETH,1992,12
+Ethiopia,ETH,1993,22
+Ethiopia,ETH,1994,54
+Ethiopia,ETH,1995,38
+Ethiopia,ETH,1996,54
+Ethiopia,ETH,1997,51
+Ethiopia,ETH,1998,39
+Ethiopia,ETH,1999,27
+Ethiopia,ETH,2000,28
+Ethiopia,ETH,2001,29
+Ethiopia,ETH,2002,32
+Ethiopia,ETH,2003,33
+Ethiopia,ETH,2004,35
+Ethiopia,ETH,2005,40
+Ethiopia,ETH,2006,44
+Ethiopia,ETH,2007,49
+Ethiopia,ETH,2008,54
+Ethiopia,ETH,2009,59
+Ethiopia,ETH,2010,64
+Ethiopia,ETH,2011,68
+Ethiopia,ETH,2012,62
+Ethiopia,ETH,2013,55
+Ethiopia,ETH,2014,54
+Ethiopia,ETH,2015,56
+Ethiopia,ETH,2016,57
+Ethiopia,ETH,2017,59
+Ethiopia,ETH,2018,54
+Ethiopia,ETH,2019,56
+Ethiopia,ETH,2020,57
+Ethiopia,ETH,2021,60
+Ethiopia,ETH,2022,62
+Ethiopia,ETH,2023,68
+Ethiopia,ETH,2024,72
+Gabon,GAB,1985,58
+Gabon,GAB,1986,66
+Gabon,GAB,1987,67
+Gabon,GAB,1988,68
+Gabon,GAB,1989,76
+Gabon,GAB,1990,76
+Gabon,GAB,1991,71
+Gabon,GAB,1992,66
+Gabon,GAB,1993,63
+Gabon,GAB,1994,60
+Gabon,GAB,1995,57
+Gabon,GAB,1996,57
+Gabon,GAB,1997,56
+Gabon,GAB,1998,56
+Gabon,GAB,1999,55
+Gabon,GAB,2000,55
+Gabon,GAB,2001,55
+Gabon,GAB,2002,55
+Gabon,GAB,2003,55
+Gabon,GAB,2004,55
+Gabon,GAB,2005,55
+Gabon,GAB,2006,55
+Gabon,GAB,2007,62
+Gabon,GAB,2008,67
+Gabon,GAB,2009,63
+Gabon,GAB,2010,62
+Gabon,GAB,2011,72
+Gabon,GAB,2012,71
+Gabon,GAB,2013,70
+Gabon,GAB,2014,61
+Gabon,GAB,2015,68
+Gabon,GAB,2016,64
+Gabon,GAB,2017,63
+Gabon,GAB,2018,59
+Gabon,GAB,2019,62
+Gabon,GAB,2020,53
+Gabon,GAB,2021,64
+Gabon,GAB,2022,52
+Gabon,GAB,2023,66
+Gabon,GAB,2024,57
+Gambia,GMB,1980,69
+Gambia,GMB,1981,70
+Gambia,GMB,1982,71
+Gambia,GMB,1983,70
+Gambia,GMB,1984,79
+Gambia,GMB,1985,75
+Gambia,GMB,1986,62
+Gambia,GMB,1987,88
+Gambia,GMB,1988,80
+Gambia,GMB,1989,85
+Gambia,GMB,1990,86
+Gambia,GMB,1991,87
+Gambia,GMB,1992,83
+Gambia,GMB,1993,87
+Gambia,GMB,1994,89
+Gambia,GMB,1995,91
+Gambia,GMB,1996,94
+Gambia,GMB,1997,91
+Gambia,GMB,1998,90
+Gambia,GMB,1999,90
+Gambia,GMB,2000,89
+Gambia,GMB,2001,89
+Gambia,GMB,2002,90
+Gambia,GMB,2003,90
+Gambia,GMB,2004,92
+Gambia,GMB,2005,91
+Gambia,GMB,2006,89
+Gambia,GMB,2007,88
+Gambia,GMB,2008,92
+Gambia,GMB,2009,96
+Gambia,GMB,2010,92
+Gambia,GMB,2011,91
+Gambia,GMB,2012,95
+Gambia,GMB,2013,96
+Gambia,GMB,2014,96
+Gambia,GMB,2015,97
+Gambia,GMB,2016,97
+Gambia,GMB,2017,90
+Gambia,GMB,2018,91
+Gambia,GMB,2019,85
+Gambia,GMB,2020,82
+Gambia,GMB,2021,79
+Gambia,GMB,2022,74
+Gambia,GMB,2023,80
+Gambia,GMB,2024,83
+Ghana,GHA,1980,16
+Ghana,GHA,1981,23
+Ghana,GHA,1982,21
+Ghana,GHA,1983,16
+Ghana,GHA,1984,10
+Ghana,GHA,1985,21
+Ghana,GHA,1986,31
+Ghana,GHA,1987,51
+Ghana,GHA,1988,59
+Ghana,GHA,1989,65
+Ghana,GHA,1990,61
+Ghana,GHA,1991,63
+Ghana,GHA,1992,64
+Ghana,GHA,1993,66
+Ghana,GHA,1994,68
+Ghana,GHA,1995,70
+Ghana,GHA,1996,71
+Ghana,GHA,1997,73
+Ghana,GHA,1998,78
+Ghana,GHA,1999,81
+Ghana,GHA,2000,90
+Ghana,GHA,2001,78
+Ghana,GHA,2002,78
+Ghana,GHA,2003,80
+Ghana,GHA,2004,83
+Ghana,GHA,2005,83
+Ghana,GHA,2006,85
+Ghana,GHA,2007,95
+Ghana,GHA,2008,86
+Ghana,GHA,2009,93
+Ghana,GHA,2010,93
+Ghana,GHA,2011,91
+Ghana,GHA,2012,89
+Ghana,GHA,2013,89
+Ghana,GHA,2014,92
+Ghana,GHA,2015,89
+Ghana,GHA,2016,89
+Ghana,GHA,2017,95
+Ghana,GHA,2018,92
+Ghana,GHA,2019,92
+Ghana,GHA,2020,88
+Ghana,GHA,2021,94
+Ghana,GHA,2022,95
+Ghana,GHA,2023,90
+Ghana,GHA,2024,90
+Guinea,GIN,1981,15
+Guinea,GIN,1982,34
+Guinea,GIN,1983,30
+Guinea,GIN,1984,29
+Guinea,GIN,1985,29
+Guinea,GIN,1986,28
+Guinea,GIN,1987,28
+Guinea,GIN,1988,27
+Guinea,GIN,1989,27
+Guinea,GIN,1990,35
+Guinea,GIN,1991,42
+Guinea,GIN,1992,52
+Guinea,GIN,1993,55
+Guinea,GIN,1994,58
+Guinea,GIN,1995,61
+Guinea,GIN,1996,61
+Guinea,GIN,1997,56
+Guinea,GIN,1998,52
+Guinea,GIN,1999,40
+Guinea,GIN,2000,42
+Guinea,GIN,2001,44
+Guinea,GIN,2002,46
+Guinea,GIN,2003,48
+Guinea,GIN,2004,50
+Guinea,GIN,2005,51
+Guinea,GIN,2006,51
+Guinea,GIN,2007,57
+Guinea,GIN,2008,55
+Guinea,GIN,2009,53
+Guinea,GIN,2010,58
+Guinea,GIN,2011,62
+Guinea,GIN,2012,58
+Guinea,GIN,2013,55
+Guinea,GIN,2014,51
+Guinea,GIN,2015,47
+Guinea,GIN,2016,48
+Guinea,GIN,2017,48
+Guinea,GIN,2018,49
+Guinea,GIN,2019,50
+Guinea,GIN,2020,50
+Guinea,GIN,2021,51
+Guinea,GIN,2022,51
+Guinea,GIN,2023,52
+Guinea,GIN,2024,60
+Guinea-Bissau,GNB,1983,27
+Guinea-Bissau,GNB,1984,31
+Guinea-Bissau,GNB,1985,35
+Guinea-Bissau,GNB,1986,59
+Guinea-Bissau,GNB,1987,68
+Guinea-Bissau,GNB,1988,52
+Guinea-Bissau,GNB,1989,65
+Guinea-Bissau,GNB,1990,53
+Guinea-Bissau,GNB,1991,52
+Guinea-Bissau,GNB,1992,60
+Guinea-Bissau,GNB,1993,68
+Guinea-Bissau,GNB,1994,68
+Guinea-Bissau,GNB,1995,45
+Guinea-Bissau,GNB,1996,49
+Guinea-Bissau,GNB,1997,51
+Guinea-Bissau,GNB,1998,61
+Guinea-Bissau,GNB,1999,70
+Guinea-Bissau,GNB,2000,71
+Guinea-Bissau,GNB,2001,72
+Guinea-Bissau,GNB,2002,73
+Guinea-Bissau,GNB,2003,74
+Guinea-Bissau,GNB,2004,75
+Guinea-Bissau,GNB,2005,76
+Guinea-Bissau,GNB,2006,74
+Guinea-Bissau,GNB,2007,73
+Guinea-Bissau,GNB,2008,71
+Guinea-Bissau,GNB,2009,69
+Guinea-Bissau,GNB,2010,76
+Guinea-Bissau,GNB,2011,83
+Guinea-Bissau,GNB,2012,81
+Guinea-Bissau,GNB,2013,81
+Guinea-Bissau,GNB,2014,81
+Guinea-Bissau,GNB,2015,80
+Guinea-Bissau,GNB,2016,80
+Guinea-Bissau,GNB,2017,66
+Guinea-Bissau,GNB,2018,79
+Guinea-Bissau,GNB,2019,79
+Guinea-Bissau,GNB,2020,72
+Guinea-Bissau,GNB,2021,63
+Guinea-Bissau,GNB,2022,75
+Guinea-Bissau,GNB,2023,72
+Guinea-Bissau,GNB,2024,65
+Kenya,KEN,1984,55
+Kenya,KEN,1985,63
+Kenya,KEN,1986,65
+Kenya,KEN,1987,69
+Kenya,KEN,1988,72
+Kenya,KEN,1989,75
+Kenya,KEN,1990,78
+Kenya,KEN,1991,81
+Kenya,KEN,1992,84
+Kenya,KEN,1993,84
+Kenya,KEN,1994,84
+Kenya,KEN,1995,83
+Kenya,KEN,1996,81
+Kenya,KEN,1997,79
+Kenya,KEN,1998,78
+Kenya,KEN,1999,76
+Kenya,KEN,2000,78
+Kenya,KEN,2001,77
+Kenya,KEN,2002,78
+Kenya,KEN,2003,72
+Kenya,KEN,2004,73
+Kenya,KEN,2005,69
+Kenya,KEN,2006,77
+Kenya,KEN,2007,80
+Kenya,KEN,2008,90
+Kenya,KEN,2009,88
+Kenya,KEN,2010,86
+Kenya,KEN,2011,87
+Kenya,KEN,2012,93
+Kenya,KEN,2013,94
+Kenya,KEN,2014,95
+Kenya,KEN,2015,96
+Kenya,KEN,2016,93
+Kenya,KEN,2017,84
+Kenya,KEN,2018,92
+Kenya,KEN,2019,92
+Kenya,KEN,2020,89
+Kenya,KEN,2021,90
+Kenya,KEN,2022,89
+Kenya,KEN,2023,91
+Kenya,KEN,2024,88
+Lesotho,LSO,1980,49
+Lesotho,LSO,1981,49
+Lesotho,LSO,1982,51
+Lesotho,LSO,1983,53
+Lesotho,LSO,1984,63
+Lesotho,LSO,1985,73
+Lesotho,LSO,1986,76
+Lesotho,LSO,1987,78
+Lesotho,LSO,1988,79
+Lesotho,LSO,1989,79
+Lesotho,LSO,1990,80
+Lesotho,LSO,1991,81
+Lesotho,LSO,1992,81
+Lesotho,LSO,1993,82
+Lesotho,LSO,1994,82
+Lesotho,LSO,1995,83
+Lesotho,LSO,1996,82
+Lesotho,LSO,1997,80
+Lesotho,LSO,1998,79
+Lesotho,LSO,1999,77
+Lesotho,LSO,2000,74
+Lesotho,LSO,2001,70
+Lesotho,LSO,2002,78
+Lesotho,LSO,2003,85
+Lesotho,LSO,2004,84
+Lesotho,LSO,2005,83
+Lesotho,LSO,2006,82
+Lesotho,LSO,2007,81
+Lesotho,LSO,2008,80
+Lesotho,LSO,2009,84
+Lesotho,LSO,2010,88
+Lesotho,LSO,2011,92
+Lesotho,LSO,2012,91
+Lesotho,LSO,2013,90
+Lesotho,LSO,2014,92
+Lesotho,LSO,2015,93
+Lesotho,LSO,2016,90
+Lesotho,LSO,2017,89
+Lesotho,LSO,2018,89
+Lesotho,LSO,2019,90
+Lesotho,LSO,2020,90
+Lesotho,LSO,2021,90
+Lesotho,LSO,2022,84
+Lesotho,LSO,2023,76
+Lesotho,LSO,2024,90
+Liberia,LBR,1999,69
+Liberia,LBR,2000,63
+Liberia,LBR,2001,58
+Liberia,LBR,2002,52
+Liberia,LBR,2003,47
+Liberia,LBR,2004,41
+Liberia,LBR,2005,62
+Liberia,LBR,2006,63
+Liberia,LBR,2007,71
+Liberia,LBR,2008,76
+Liberia,LBR,2009,83
+Liberia,LBR,2010,65
+Liberia,LBR,2011,71
+Liberia,LBR,2012,80
+Liberia,LBR,2013,74
+Liberia,LBR,2014,58
+Liberia,LBR,2015,64
+Liberia,LBR,2016,70
+Liberia,LBR,2017,75
+Liberia,LBR,2018,74
+Liberia,LBR,2019,68
+Liberia,LBR,2020,61
+Liberia,LBR,2021,58
+Liberia,LBR,2022,79
+Liberia,LBR,2023,82
+Liberia,LBR,2024,82
+Libya,LBY,1980,61
+Libya,LBY,1981,66
+Libya,LBY,1982,65
+Libya,LBY,1983,71
+Libya,LBY,1984,76
+Libya,LBY,1985,75
+Libya,LBY,1986,78
+Libya,LBY,1987,75
+Libya,LBY,1988,76
+Libya,LBY,1989,79
+Libya,LBY,1990,89
+Libya,LBY,1991,87
+Libya,LBY,1992,88
+Libya,LBY,1993,91
+Libya,LBY,1994,92
+Libya,LBY,1995,92
+Libya,LBY,1996,93
+Libya,LBY,1997,91
+Libya,LBY,1998,92
+Libya,LBY,1999,92
+Libya,LBY,2000,93
+Libya,LBY,2001,93
+Libya,LBY,2002,91
+Libya,LBY,2003,96
+Libya,LBY,2004,99
+Libya,LBY,2005,97
+Libya,LBY,2006,98
+Libya,LBY,2007,98
+Libya,LBY,2008,98
+Libya,LBY,2009,98
+Libya,LBY,2010,98
+Libya,LBY,2011,98
+Libya,LBY,2012,98
+Libya,LBY,2013,96
+Libya,LBY,2014,93
+Libya,LBY,2015,98
+Libya,LBY,2016,97
+Libya,LBY,2017,95
+Libya,LBY,2018,73
+Libya,LBY,2019,73
+Libya,LBY,2020,73
+Libya,LBY,2021,73
+Libya,LBY,2022,73
+Libya,LBY,2023,73
+Libya,LBY,2024,89
+Madagascar,MDG,1984,1
+Madagascar,MDG,1985,6
+Madagascar,MDG,1986,18
+Madagascar,MDG,1987,28
+Madagascar,MDG,1988,36
+Madagascar,MDG,1989,44
+Madagascar,MDG,1990,47
+Madagascar,MDG,1991,54
+Madagascar,MDG,1992,54
+Madagascar,MDG,1993,54
+Madagascar,MDG,1994,63
+Madagascar,MDG,1995,55
+Madagascar,MDG,1996,46
+Madagascar,MDG,1997,46
+Madagascar,MDG,1998,51
+Madagascar,MDG,1999,55
+Madagascar,MDG,2000,57
+Madagascar,MDG,2001,59
+Madagascar,MDG,2002,61
+Madagascar,MDG,2003,65
+Madagascar,MDG,2004,79
+Madagascar,MDG,2005,74
+Madagascar,MDG,2006,71
+Madagascar,MDG,2007,81
+Madagascar,MDG,2008,70
+Madagascar,MDG,2009,63
+Madagascar,MDG,2010,66
+Madagascar,MDG,2011,62
+Madagascar,MDG,2012,63
+Madagascar,MDG,2013,64
+Madagascar,MDG,2014,66
+Madagascar,MDG,2015,60
+Madagascar,MDG,2016,62
+Madagascar,MDG,2017,55
+Madagascar,MDG,2018,68
+Madagascar,MDG,2019,60
+Madagascar,MDG,2020,55
+Madagascar,MDG,2021,43
+Madagascar,MDG,2022,44
+Madagascar,MDG,2023,51
+Madagascar,MDG,2024,46
+Malawi,MWI,1980,49
+Malawi,MWI,1981,64
+Malawi,MWI,1982,64
+Malawi,MWI,1983,58
+Malawi,MWI,1984,50
+Malawi,MWI,1985,49
+Malawi,MWI,1986,60
+Malawi,MWI,1987,79
+Malawi,MWI,1988,82
+Malawi,MWI,1989,84
+Malawi,MWI,1990,81
+Malawi,MWI,1991,85
+Malawi,MWI,1992,91
+Malawi,MWI,1993,87
+Malawi,MWI,1994,83
+Malawi,MWI,1995,90
+Malawi,MWI,1996,90
+Malawi,MWI,1997,87
+Malawi,MWI,1998,90
+Malawi,MWI,1999,82
+Malawi,MWI,2000,73
+Malawi,MWI,2001,81
+Malawi,MWI,2002,69
+Malawi,MWI,2003,77
+Malawi,MWI,2004,80
+Malawi,MWI,2005,82
+Malawi,MWI,2006,85
+Malawi,MWI,2007,83
+Malawi,MWI,2008,88
+Malawi,MWI,2009,92
+Malawi,MWI,2010,93
+Malawi,MWI,2011,96
+Malawi,MWI,2012,90
+Malawi,MWI,2013,88
+Malawi,MWI,2014,85
+Malawi,MWI,2015,87
+Malawi,MWI,2016,81
+Malawi,MWI,2017,83
+Malawi,MWI,2018,87
+Malawi,MWI,2019,92
+Malawi,MWI,2020,90
+Malawi,MWI,2021,90
+Malawi,MWI,2022,82
+Malawi,MWI,2023,87
+Malawi,MWI,2024,89
+Mali,MLI,1985,19
+Mali,MLI,1986,27
+Mali,MLI,1987,11
+Mali,MLI,1988,23
+Mali,MLI,1989,40
+Mali,MLI,1990,43
+Mali,MLI,1991,42
+Mali,MLI,1992,35
+Mali,MLI,1993,51
+Mali,MLI,1994,46
+Mali,MLI,1995,52
+Mali,MLI,1996,57
+Mali,MLI,1997,56
+Mali,MLI,1998,54
+Mali,MLI,1999,51
+Mali,MLI,2000,49
+Mali,MLI,2001,54
+Mali,MLI,2002,56
+Mali,MLI,2003,57
+Mali,MLI,2004,63
+Mali,MLI,2005,73
+Mali,MLI,2006,68
+Mali,MLI,2007,66
+Mali,MLI,2008,71
+Mali,MLI,2009,73
+Mali,MLI,2010,78
+Mali,MLI,2011,72
+Mali,MLI,2012,67
+Mali,MLI,2013,62
+Mali,MLI,2014,65
+Mali,MLI,2015,67
+Mali,MLI,2016,70
+Mali,MLI,2017,70
+Mali,MLI,2018,71
+Mali,MLI,2019,71
+Mali,MLI,2020,62
+Mali,MLI,2021,72
+Mali,MLI,2022,69
+Mali,MLI,2023,68
+Mali,MLI,2024,72
+Mauritania,MRT,1981,45
+Mauritania,MRT,1982,44
+Mauritania,MRT,1983,43
+Mauritania,MRT,1984,42
+Mauritania,MRT,1985,41
+Mauritania,MRT,1986,40
+Mauritania,MRT,1987,27
+Mauritania,MRT,1988,45
+Mauritania,MRT,1989,42
+Mauritania,MRT,1990,38
+Mauritania,MRT,1991,32
+Mauritania,MRT,1992,43
+Mauritania,MRT,1993,49
+Mauritania,MRT,1994,53
+Mauritania,MRT,1995,67
+Mauritania,MRT,1996,66
+Mauritania,MRT,1997,64
+Mauritania,MRT,1998,63
+Mauritania,MRT,1999,62
+Mauritania,MRT,2000,46
+Mauritania,MRT,2001,58
+Mauritania,MRT,2002,87
+Mauritania,MRT,2003,84
+Mauritania,MRT,2004,73
+Mauritania,MRT,2005,65
+Mauritania,MRT,2006,62
+Mauritania,MRT,2007,67
+Mauritania,MRT,2008,65
+Mauritania,MRT,2009,59
+Mauritania,MRT,2010,67
+Mauritania,MRT,2011,67
+Mauritania,MRT,2012,75
+Mauritania,MRT,2013,80
+Mauritania,MRT,2014,75
+Mauritania,MRT,2015,70
+Mauritania,MRT,2016,73
+Mauritania,MRT,2017,75
+Mauritania,MRT,2018,78
+Mauritania,MRT,2019,75
+Mauritania,MRT,2020,82
+Mauritania,MRT,2021,75
+Mauritania,MRT,2022,84
+Mauritania,MRT,2023,92
+Mauritania,MRT,2024,93
+Mauritius,MUS,1982,34
+Mauritius,MUS,1983,53
+Mauritius,MUS,1984,55
+Mauritius,MUS,1985,67
+Mauritius,MUS,1986,71
+Mauritius,MUS,1987,69
+Mauritius,MUS,1988,73
+Mauritius,MUS,1989,80
+Mauritius,MUS,1990,76
+Mauritius,MUS,1991,88
+Mauritius,MUS,1992,84
+Mauritius,MUS,1993,84
+Mauritius,MUS,1994,85
+Mauritius,MUS,1995,89
+Mauritius,MUS,1996,61
+Mauritius,MUS,1997,87
+Mauritius,MUS,1998,85
+Mauritius,MUS,1999,80
+Mauritius,MUS,2000,84
+Mauritius,MUS,2001,90
+Mauritius,MUS,2002,84
+Mauritius,MUS,2003,91
+Mauritius,MUS,2004,98
+Mauritius,MUS,2005,98
+Mauritius,MUS,2006,99
+Mauritius,MUS,2007,98
+Mauritius,MUS,2008,98
+Mauritius,MUS,2009,99
+Mauritius,MUS,2010,99
+Mauritius,MUS,2011,99
+Mauritius,MUS,2012,99
+Mauritius,MUS,2013,99
+Mauritius,MUS,2014,98
+Mauritius,MUS,2015,99
+Mauritius,MUS,2016,92
+Mauritius,MUS,2017,89
+Mauritius,MUS,2018,99
+Mauritius,MUS,2019,99
+Mauritius,MUS,2020,98
+Mauritius,MUS,2021,97
+Mauritius,MUS,2022,98
+Mauritius,MUS,2023,96
+Mauritius,MUS,2024,98
+Morocco,MAR,1982,17
+Morocco,MAR,1983,35
+Morocco,MAR,1984,42
+Morocco,MAR,1985,45
+Morocco,MAR,1986,58
+Morocco,MAR,1987,73
+Morocco,MAR,1988,81
+Morocco,MAR,1989,82
+Morocco,MAR,1990,79
+Morocco,MAR,1991,80
+Morocco,MAR,1992,81
+Morocco,MAR,1993,83
+Morocco,MAR,1994,87
+Morocco,MAR,1995,88
+Morocco,MAR,1996,93
+Morocco,MAR,1997,92
+Morocco,MAR,1998,91
+Morocco,MAR,1999,90
+Morocco,MAR,2000,93
+Morocco,MAR,2001,96
+Morocco,MAR,2002,94
+Morocco,MAR,2003,90
+Morocco,MAR,2004,95
+Morocco,MAR,2005,97
+Morocco,MAR,2006,95
+Morocco,MAR,2007,95
+Morocco,MAR,2008,96
+Morocco,MAR,2009,98
+Morocco,MAR,2010,98
+Morocco,MAR,2011,99
+Morocco,MAR,2012,99
+Morocco,MAR,2013,99
+Morocco,MAR,2014,99
+Morocco,MAR,2015,99
+Morocco,MAR,2016,99
+Morocco,MAR,2017,99
+Morocco,MAR,2018,99
+Morocco,MAR,2019,99
+Morocco,MAR,2020,99
+Morocco,MAR,2021,99
+Morocco,MAR,2022,99
+Morocco,MAR,2023,98
+Morocco,MAR,2024,98
+Mozambique,MOZ,1981,32
+Mozambique,MOZ,1982,58
+Mozambique,MOZ,1983,51
+Mozambique,MOZ,1984,50
+Mozambique,MOZ,1985,39
+Mozambique,MOZ,1986,39
+Mozambique,MOZ,1987,37
+Mozambique,MOZ,1988,44
+Mozambique,MOZ,1989,48
+Mozambique,MOZ,1990,59
+Mozambique,MOZ,1991,55
+Mozambique,MOZ,1992,56
+Mozambique,MOZ,1993,62
+Mozambique,MOZ,1994,65
+Mozambique,MOZ,1995,71
+Mozambique,MOZ,1996,58
+Mozambique,MOZ,1997,61
+Mozambique,MOZ,1998,64
+Mozambique,MOZ,1999,67
+Mozambique,MOZ,2000,71
+Mozambique,MOZ,2001,74
+Mozambique,MOZ,2002,77
+Mozambique,MOZ,2003,80
+Mozambique,MOZ,2004,79
+Mozambique,MOZ,2005,78
+Mozambique,MOZ,2006,76
+Mozambique,MOZ,2007,75
+Mozambique,MOZ,2008,77
+Mozambique,MOZ,2009,80
+Mozambique,MOZ,2010,82
+Mozambique,MOZ,2011,82
+Mozambique,MOZ,2012,83
+Mozambique,MOZ,2013,83
+Mozambique,MOZ,2014,83
+Mozambique,MOZ,2015,83
+Mozambique,MOZ,2016,83
+Mozambique,MOZ,2017,83
+Mozambique,MOZ,2018,83
+Mozambique,MOZ,2019,83
+Mozambique,MOZ,2020,73
+Mozambique,MOZ,2021,62
+Mozambique,MOZ,2022,63
+Mozambique,MOZ,2023,65
+Mozambique,MOZ,2024,65
+Namibia,NAM,1991,76
+Namibia,NAM,1992,76
+Namibia,NAM,1993,71
+Namibia,NAM,1994,70
+Namibia,NAM,1995,68
+Namibia,NAM,1996,61
+Namibia,NAM,1997,59
+Namibia,NAM,1998,64
+Namibia,NAM,1999,65
+Namibia,NAM,2000,69
+Namibia,NAM,2001,58
+Namibia,NAM,2002,68
+Namibia,NAM,2003,70
+Namibia,NAM,2004,70
+Namibia,NAM,2005,73
+Namibia,NAM,2006,63
+Namibia,NAM,2007,69
+Namibia,NAM,2008,73
+Namibia,NAM,2009,76
+Namibia,NAM,2010,75
+Namibia,NAM,2011,74
+Namibia,NAM,2012,76
+Namibia,NAM,2013,82
+Namibia,NAM,2014,83
+Namibia,NAM,2015,85
+Namibia,NAM,2016,75
+Namibia,NAM,2017,80
+Namibia,NAM,2018,82
+Namibia,NAM,2019,80
+Namibia,NAM,2020,90
+Namibia,NAM,2021,91
+Namibia,NAM,2022,89
+Namibia,NAM,2023,86
+Namibia,NAM,2024,79
+Niger,NER,1981,19
+Niger,NER,1982,18
+Niger,NER,1983,16
+Niger,NER,1984,22
+Niger,NER,1985,27
+Niger,NER,1986,27
+Niger,NER,1987,27
+Niger,NER,1988,24
+Niger,NER,1989,14
+Niger,NER,1990,25
+Niger,NER,1991,28
+Niger,NER,1992,21
+Niger,NER,1993,19
+Niger,NER,1994,19
+Niger,NER,1995,40
+Niger,NER,1996,38
+Niger,NER,1997,35
+Niger,NER,1998,35
+Niger,NER,1999,35
+Niger,NER,2000,37
+Niger,NER,2001,39
+Niger,NER,2002,41
+Niger,NER,2003,43
+Niger,NER,2004,45
+Niger,NER,2005,47
+Niger,NER,2006,53
+Niger,NER,2007,60
+Niger,NER,2008,66
+Niger,NER,2009,69
+Niger,NER,2010,67
+Niger,NER,2011,69
+Niger,NER,2012,75
+Niger,NER,2013,80
+Niger,NER,2014,80
+Niger,NER,2015,85
+Niger,NER,2016,76
+Niger,NER,2017,82
+Niger,NER,2018,77
+Niger,NER,2019,79
+Niger,NER,2020,79
+Niger,NER,2021,80
+Niger,NER,2022,65
+Niger,NER,2023,80
+Niger,NER,2024,81
+Nigeria,NGA,1984,9
+Nigeria,NGA,1985,17
+Nigeria,NGA,1986,28
+Nigeria,NGA,1987,36
+Nigeria,NGA,1988,46
+Nigeria,NGA,1989,59
+Nigeria,NGA,1990,54
+Nigeria,NGA,1991,57
+Nigeria,NGA,1992,43
+Nigeria,NGA,1993,40
+Nigeria,NGA,1994,41
+Nigeria,NGA,1995,44
+Nigeria,NGA,1996,38
+Nigeria,NGA,1997,38
+Nigeria,NGA,1998,38
+Nigeria,NGA,1999,35
+Nigeria,NGA,2000,33
+Nigeria,NGA,2001,32
+Nigeria,NGA,2002,30
+Nigeria,NGA,2003,34
+Nigeria,NGA,2004,37
+Nigeria,NGA,2005,41
+Nigeria,NGA,2006,44
+Nigeria,NGA,2007,41
+Nigeria,NGA,2008,53
+Nigeria,NGA,2009,64
+Nigeria,NGA,2010,56
+Nigeria,NGA,2011,53
+Nigeria,NGA,2012,41
+Nigeria,NGA,2013,42
+Nigeria,NGA,2014,42
+Nigeria,NGA,2015,42
+Nigeria,NGA,2016,48
+Nigeria,NGA,2017,54
+Nigeria,NGA,2018,56
+Nigeria,NGA,2019,58
+Nigeria,NGA,2020,60
+Nigeria,NGA,2021,56
+Nigeria,NGA,2022,51
+Nigeria,NGA,2023,54
+Nigeria,NGA,2024,57
+Rwanda,RWA,1981,42
+Rwanda,RWA,1982,48
+Rwanda,RWA,1983,53
+Rwanda,RWA,1984,53
+Rwanda,RWA,1985,52
+Rwanda,RWA,1986,79
+Rwanda,RWA,1987,78
+Rwanda,RWA,1988,79
+Rwanda,RWA,1989,83
+Rwanda,RWA,1990,83
+Rwanda,RWA,1991,89
+Rwanda,RWA,1992,82
+Rwanda,RWA,1993,74
+Rwanda,RWA,1994,25
+Rwanda,RWA,1995,84
+Rwanda,RWA,1996,76
+Rwanda,RWA,1997,66
+Rwanda,RWA,1998,72
+Rwanda,RWA,1999,78
+Rwanda,RWA,2000,74
+Rwanda,RWA,2001,69
+Rwanda,RWA,2002,69
+Rwanda,RWA,2003,90
+Rwanda,RWA,2004,84
+Rwanda,RWA,2005,89
+Rwanda,RWA,2006,95
+Rwanda,RWA,2007,94
+Rwanda,RWA,2008,92
+Rwanda,RWA,2009,95
+Rwanda,RWA,2010,95
+Rwanda,RWA,2011,95
+Rwanda,RWA,2012,97
+Rwanda,RWA,2013,95
+Rwanda,RWA,2014,97
+Rwanda,RWA,2015,96
+Rwanda,RWA,2016,95
+Rwanda,RWA,2017,97
+Rwanda,RWA,2018,99
+Rwanda,RWA,2019,96
+Rwanda,RWA,2020,94
+Rwanda,RWA,2021,87
+Rwanda,RWA,2022,99
+Rwanda,RWA,2023,96
+Rwanda,RWA,2024,97
+Sao Tome and Principe,STP,1981,25
+Sao Tome and Principe,STP,1982,32
+Sao Tome and Principe,STP,1983,40
+Sao Tome and Principe,STP,1984,48
+Sao Tome and Principe,STP,1985,35
+Sao Tome and Principe,STP,1986,58
+Sao Tome and Principe,STP,1987,69
+Sao Tome and Principe,STP,1988,69
+Sao Tome and Principe,STP,1989,45
+Sao Tome and Principe,STP,1990,71
+Sao Tome and Principe,STP,1991,77
+Sao Tome and Principe,STP,1992,52
+Sao Tome and Principe,STP,1993,57
+Sao Tome and Principe,STP,1994,65
+Sao Tome and Principe,STP,1995,74
+Sao Tome and Principe,STP,1996,57
+Sao Tome and Principe,STP,1997,60
+Sao Tome and Principe,STP,1998,59
+Sao Tome and Principe,STP,1999,64
+Sao Tome and Principe,STP,2000,69
+Sao Tome and Principe,STP,2001,75
+Sao Tome and Principe,STP,2002,85
+Sao Tome and Principe,STP,2003,87
+Sao Tome and Principe,STP,2004,91
+Sao Tome and Principe,STP,2005,88
+Sao Tome and Principe,STP,2006,85
+Sao Tome and Principe,STP,2007,86
+Sao Tome and Principe,STP,2008,93
+Sao Tome and Principe,STP,2009,90
+Sao Tome and Principe,STP,2010,92
+Sao Tome and Principe,STP,2011,91
+Sao Tome and Principe,STP,2012,92
+Sao Tome and Principe,STP,2013,91
+Sao Tome and Principe,STP,2014,92
+Sao Tome and Principe,STP,2015,93
+Sao Tome and Principe,STP,2016,93
+Sao Tome and Principe,STP,2017,90
+Sao Tome and Principe,STP,2018,95
+Sao Tome and Principe,STP,2019,95
+Sao Tome and Principe,STP,2020,86
+Sao Tome and Principe,STP,2021,77
+Sao Tome and Principe,STP,2022,82
+Sao Tome and Principe,STP,2023,87
+Sao Tome and Principe,STP,2024,87
+Senegal,SEN,1986,71
+Senegal,SEN,1987,66
+Senegal,SEN,1988,60
+Senegal,SEN,1989,48
+Senegal,SEN,1990,51
+Senegal,SEN,1991,54
+Senegal,SEN,1992,57
+Senegal,SEN,1993,58
+Senegal,SEN,1994,59
+Senegal,SEN,1995,80
+Senegal,SEN,1996,70
+Senegal,SEN,1997,65
+Senegal,SEN,1998,62
+Senegal,SEN,1999,60
+Senegal,SEN,2000,48
+Senegal,SEN,2001,48
+Senegal,SEN,2002,54
+Senegal,SEN,2003,60
+Senegal,SEN,2004,57
+Senegal,SEN,2005,74
+Senegal,SEN,2006,80
+Senegal,SEN,2007,84
+Senegal,SEN,2008,77
+Senegal,SEN,2009,79
+Senegal,SEN,2010,81
+Senegal,SEN,2011,84
+Senegal,SEN,2012,83
+Senegal,SEN,2013,84
+Senegal,SEN,2014,80
+Senegal,SEN,2015,80
+Senegal,SEN,2016,93
+Senegal,SEN,2017,90
+Senegal,SEN,2018,86
+Senegal,SEN,2019,86
+Senegal,SEN,2020,82
+Senegal,SEN,2021,88
+Senegal,SEN,2022,87
+Senegal,SEN,2023,87
+Senegal,SEN,2024,87
+Seychelles,SYC,1981,29
+Seychelles,SYC,1982,64
+Seychelles,SYC,1983,98
+Seychelles,SYC,1984,77
+Seychelles,SYC,1985,90
+Seychelles,SYC,1986,95
+Seychelles,SYC,1987,95
+Seychelles,SYC,1988,89
+Seychelles,SYC,1989,89
+Seychelles,SYC,1990,86
+Seychelles,SYC,1991,89
+Seychelles,SYC,1992,92
+Seychelles,SYC,1993,92
+Seychelles,SYC,1994,92
+Seychelles,SYC,1995,97
+Seychelles,SYC,1996,98
+Seychelles,SYC,1997,99
+Seychelles,SYC,1998,93
+Seychelles,SYC,1999,99
+Seychelles,SYC,2000,97
+Seychelles,SYC,2001,95
+Seychelles,SYC,2002,98
+Seychelles,SYC,2003,99
+Seychelles,SYC,2004,99
+Seychelles,SYC,2005,99
+Seychelles,SYC,2006,99
+Seychelles,SYC,2007,99
+Seychelles,SYC,2008,99
+Seychelles,SYC,2009,97
+Seychelles,SYC,2010,99
+Seychelles,SYC,2011,99
+Seychelles,SYC,2012,98
+Seychelles,SYC,2013,97
+Seychelles,SYC,2014,99
+Seychelles,SYC,2015,98
+Seychelles,SYC,2016,97
+Seychelles,SYC,2017,99
+Seychelles,SYC,2018,96
+Seychelles,SYC,2019,99
+Seychelles,SYC,2020,97
+Seychelles,SYC,2021,94
+Seychelles,SYC,2022,98
+Seychelles,SYC,2023,93
+Seychelles,SYC,2024,97
+Sierra Leone,SLE,1999,62
+Sierra Leone,SLE,2000,37
+Sierra Leone,SLE,2001,50
+Sierra Leone,SLE,2002,62
+Sierra Leone,SLE,2003,73
+Sierra Leone,SLE,2004,76
+Sierra Leone,SLE,2005,71
+Sierra Leone,SLE,2006,65
+Sierra Leone,SLE,2007,60
+Sierra Leone,SLE,2008,73
+Sierra Leone,SLE,2009,80
+Sierra Leone,SLE,2010,82
+Sierra Leone,SLE,2011,84
+Sierra Leone,SLE,2012,86
+Sierra Leone,SLE,2013,85
+Sierra Leone,SLE,2014,80
+Sierra Leone,SLE,2015,78
+Sierra Leone,SLE,2016,85
+Sierra Leone,SLE,2017,80
+Sierra Leone,SLE,2018,87
+Sierra Leone,SLE,2019,93
+Sierra Leone,SLE,2020,87
+Sierra Leone,SLE,2021,87
+Sierra Leone,SLE,2022,90
+Sierra Leone,SLE,2023,90
+Sierra Leone,SLE,2024,90
+South Africa,ZAF,1983,74
+South Africa,ZAF,1984,70
+South Africa,ZAF,1985,70
+South Africa,ZAF,1986,64
+South Africa,ZAF,1987,75
+South Africa,ZAF,1988,68
+South Africa,ZAF,1989,84
+South Africa,ZAF,1990,79
+South Africa,ZAF,1991,85
+South Africa,ZAF,1992,85
+South Africa,ZAF,1993,85
+South Africa,ZAF,1994,76
+South Africa,ZAF,1995,76
+South Africa,ZAF,1996,76
+South Africa,ZAF,1997,82
+South Africa,ZAF,1998,79
+South Africa,ZAF,1999,75
+South Africa,ZAF,2000,72
+South Africa,ZAF,2001,69
+South Africa,ZAF,2002,65
+South Africa,ZAF,2003,62
+South Africa,ZAF,2004,63
+South Africa,ZAF,2005,64
+South Africa,ZAF,2006,69
+South Africa,ZAF,2007,68
+South Africa,ZAF,2008,73
+South Africa,ZAF,2009,77
+South Africa,ZAF,2010,72
+South Africa,ZAF,2011,77
+South Africa,ZAF,2012,79
+South Africa,ZAF,2013,78
+South Africa,ZAF,2014,84
+South Africa,ZAF,2015,86
+South Africa,ZAF,2016,84
+South Africa,ZAF,2017,81
+South Africa,ZAF,2018,81
+South Africa,ZAF,2019,83
+South Africa,ZAF,2020,84
+South Africa,ZAF,2021,87
+South Africa,ZAF,2022,86
+South Africa,ZAF,2023,80
+South Africa,ZAF,2024,76
+South Sudan,SSD,2011,62
+South Sudan,SSD,2012,59
+South Sudan,SSD,2013,57
+South Sudan,SSD,2014,54
+South Sudan,SSD,2015,52
+South Sudan,SSD,2016,51
+South Sudan,SSD,2017,56
+South Sudan,SSD,2018,61
+South Sudan,SSD,2019,65
+South Sudan,SSD,2020,69
+South Sudan,SSD,2021,74
+South Sudan,SSD,2022,72
+South Sudan,SSD,2023,72
+South Sudan,SSD,2024,72
+Sudan,SDN,1981,1
+Sudan,SDN,1982,1
+Sudan,SDN,1983,2
+Sudan,SDN,1984,3
+Sudan,SDN,1985,6
+Sudan,SDN,1986,11
+Sudan,SDN,1987,22
+Sudan,SDN,1988,44
+Sudan,SDN,1989,61
+Sudan,SDN,1990,57
+Sudan,SDN,1991,57
+Sudan,SDN,1992,52
+Sudan,SDN,1993,49
+Sudan,SDN,1994,48
+Sudan,SDN,1995,51
+Sudan,SDN,1996,59
+Sudan,SDN,1997,58
+Sudan,SDN,1998,49
+Sudan,SDN,1999,51
+Sudan,SDN,2000,58
+Sudan,SDN,2001,58
+Sudan,SDN,2002,58
+Sudan,SDN,2003,65
+Sudan,SDN,2004,67
+Sudan,SDN,2005,69
+Sudan,SDN,2006,73
+Sudan,SDN,2007,79
+Sudan,SDN,2008,79
+Sudan,SDN,2009,82
+Sudan,SDN,2010,90
+Sudan,SDN,2011,87
+Sudan,SDN,2012,85
+Sudan,SDN,2013,85
+Sudan,SDN,2014,86
+Sudan,SDN,2015,87
+Sudan,SDN,2016,87
+Sudan,SDN,2017,90
+Sudan,SDN,2018,88
+Sudan,SDN,2019,90
+Sudan,SDN,2020,86
+Sudan,SDN,2021,81
+Sudan,SDN,2022,80
+Sudan,SDN,2023,51
+Sudan,SDN,2024,46
+Tanzania,TZA,1980,46
+Tanzania,TZA,1981,51
+Tanzania,TZA,1982,50
+Tanzania,TZA,1983,60
+Tanzania,TZA,1984,55
+Tanzania,TZA,1985,66
+Tanzania,TZA,1986,97
+Tanzania,TZA,1987,78
+Tanzania,TZA,1988,83
+Tanzania,TZA,1989,79
+Tanzania,TZA,1990,80
+Tanzania,TZA,1991,79
+Tanzania,TZA,1992,81
+Tanzania,TZA,1993,77
+Tanzania,TZA,1994,79
+Tanzania,TZA,1995,78
+Tanzania,TZA,1996,78
+Tanzania,TZA,1997,73
+Tanzania,TZA,1998,72
+Tanzania,TZA,1999,72
+Tanzania,TZA,2000,78
+Tanzania,TZA,2001,86
+Tanzania,TZA,2002,89
+Tanzania,TZA,2003,97
+Tanzania,TZA,2004,94
+Tanzania,TZA,2005,91
+Tanzania,TZA,2006,93
+Tanzania,TZA,2007,90
+Tanzania,TZA,2008,88
+Tanzania,TZA,2009,91
+Tanzania,TZA,2010,92
+Tanzania,TZA,2011,93
+Tanzania,TZA,2012,97
+Tanzania,TZA,2013,99
+Tanzania,TZA,2014,97
+Tanzania,TZA,2015,95
+Tanzania,TZA,2016,83
+Tanzania,TZA,2017,90
+Tanzania,TZA,2018,88
+Tanzania,TZA,2019,89
+Tanzania,TZA,2020,87
+Tanzania,TZA,2021,80
+Tanzania,TZA,2022,84
+Tanzania,TZA,2023,84
+Tanzania,TZA,2024,84
+Togo,TGO,1984,11
+Togo,TGO,1985,27
+Togo,TGO,1986,43
+Togo,TGO,1987,74
+Togo,TGO,1988,62
+Togo,TGO,1989,78
+Togo,TGO,1990,73
+Togo,TGO,1991,69
+Togo,TGO,1992,64
+Togo,TGO,1993,60
+Togo,TGO,1994,57
+Togo,TGO,1995,53
+Togo,TGO,1996,48
+Togo,TGO,1997,43
+Togo,TGO,1998,40
+Togo,TGO,1999,57
+Togo,TGO,2000,58
+Togo,TGO,2001,40
+Togo,TGO,2002,48
+Togo,TGO,2003,68
+Togo,TGO,2004,70
+Togo,TGO,2005,70
+Togo,TGO,2006,78
+Togo,TGO,2007,71
+Togo,TGO,2008,63
+Togo,TGO,2009,66
+Togo,TGO,2010,68
+Togo,TGO,2011,72
+Togo,TGO,2012,72
+Togo,TGO,2013,72
+Togo,TGO,2014,77
+Togo,TGO,2015,75
+Togo,TGO,2016,73
+Togo,TGO,2017,78
+Togo,TGO,2018,73
+Togo,TGO,2019,78
+Togo,TGO,2020,75
+Togo,TGO,2021,77
+Togo,TGO,2022,79
+Togo,TGO,2023,81
+Togo,TGO,2024,81
+Tunisia,TUN,1982,43
+Tunisia,TUN,1983,42
+Tunisia,TUN,1984,55
+Tunisia,TUN,1985,65
+Tunisia,TUN,1986,67
+Tunisia,TUN,1987,81
+Tunisia,TUN,1988,87
+Tunisia,TUN,1989,93
+Tunisia,TUN,1990,93
+Tunisia,TUN,1991,94
+Tunisia,TUN,1992,94
+Tunisia,TUN,1993,92
+Tunisia,TUN,1994,91
+Tunisia,TUN,1995,91
+Tunisia,TUN,1996,92
+Tunisia,TUN,1997,92
+Tunisia,TUN,1998,94
+Tunisia,TUN,1999,90
+Tunisia,TUN,2000,95
+Tunisia,TUN,2001,92
+Tunisia,TUN,2002,94
+Tunisia,TUN,2003,90
+Tunisia,TUN,2004,95
+Tunisia,TUN,2005,96
+Tunisia,TUN,2006,98
+Tunisia,TUN,2007,98
+Tunisia,TUN,2008,98
+Tunisia,TUN,2009,98
+Tunisia,TUN,2010,97
+Tunisia,TUN,2011,96
+Tunisia,TUN,2012,96
+Tunisia,TUN,2013,94
+Tunisia,TUN,2014,98
+Tunisia,TUN,2015,98
+Tunisia,TUN,2016,96
+Tunisia,TUN,2017,98
+Tunisia,TUN,2018,96
+Tunisia,TUN,2019,98
+Tunisia,TUN,2020,98
+Tunisia,TUN,2021,95
+Tunisia,TUN,2022,95
+Tunisia,TUN,2023,96
+Tunisia,TUN,2024,96
+Uganda,UGA,1981,22
+Uganda,UGA,1982,21
+Uganda,UGA,1983,20
+Uganda,UGA,1984,18
+Uganda,UGA,1985,17
+Uganda,UGA,1986,27
+Uganda,UGA,1987,38
+Uganda,UGA,1988,49
+Uganda,UGA,1989,51
+Uganda,UGA,1990,52
+Uganda,UGA,1991,54
+Uganda,UGA,1992,56
+Uganda,UGA,1993,57
+Uganda,UGA,1994,59
+Uganda,UGA,1995,57
+Uganda,UGA,1996,55
+Uganda,UGA,1997,54
+Uganda,UGA,1998,50
+Uganda,UGA,1999,55
+Uganda,UGA,2000,57
+Uganda,UGA,2001,59
+Uganda,UGA,2002,62
+Uganda,UGA,2003,64
+Uganda,UGA,2004,66
+Uganda,UGA,2005,68
+Uganda,UGA,2006,75
+Uganda,UGA,2007,75
+Uganda,UGA,2008,70
+Uganda,UGA,2009,77
+Uganda,UGA,2010,73
+Uganda,UGA,2011,75
+Uganda,UGA,2012,80
+Uganda,UGA,2013,83
+Uganda,UGA,2014,85
+Uganda,UGA,2015,79
+Uganda,UGA,2016,79
+Uganda,UGA,2017,83
+Uganda,UGA,2018,86
+Uganda,UGA,2019,87
+Uganda,UGA,2020,89
+Uganda,UGA,2021,90
+Uganda,UGA,2022,90
+Uganda,UGA,2023,90
+Uganda,UGA,2024,90
+Zambia,ZMB,1983,56
+Zambia,ZMB,1984,57
+Zambia,ZMB,1985,58
+Zambia,ZMB,1986,58
+Zambia,ZMB,1987,80
+Zambia,ZMB,1988,80
+Zambia,ZMB,1989,80
+Zambia,ZMB,1990,90
+Zambia,ZMB,1991,80
+Zambia,ZMB,1992,85
+Zambia,ZMB,1993,91
+Zambia,ZMB,1994,96
+Zambia,ZMB,1995,86
+Zambia,ZMB,1996,86
+Zambia,ZMB,1997,86
+Zambia,ZMB,1998,86
+Zambia,ZMB,1999,85
+Zambia,ZMB,2000,85
+Zambia,ZMB,2001,84
+Zambia,ZMB,2002,84
+Zambia,ZMB,2003,84
+Zambia,ZMB,2004,85
+Zambia,ZMB,2005,85
+Zambia,ZMB,2006,85
+Zambia,ZMB,2007,93
+Zambia,ZMB,2008,87
+Zambia,ZMB,2009,90
+Zambia,ZMB,2010,96
+Zambia,ZMB,2011,83
+Zambia,ZMB,2012,82
+Zambia,ZMB,2013,80
+Zambia,ZMB,2014,85
+Zambia,ZMB,2015,90
+Zambia,ZMB,2016,97
+Zambia,ZMB,2017,96
+Zambia,ZMB,2018,94
+Zambia,ZMB,2019,93
+Zambia,ZMB,2020,96
+Zambia,ZMB,2021,90
+Zambia,ZMB,2022,88
+Zambia,ZMB,2023,83
+Zambia,ZMB,2024,88
+Zimbabwe,ZWE,1981,56
+Zimbabwe,ZWE,1982,58
+Zimbabwe,ZWE,1983,60
+Zimbabwe,ZWE,1984,62
+Zimbabwe,ZWE,1985,78
+Zimbabwe,ZWE,1986,83
+Zimbabwe,ZWE,1987,88
+Zimbabwe,ZWE,1988,88
+Zimbabwe,ZWE,1989,87
+Zimbabwe,ZWE,1990,87
+Zimbabwe,ZWE,1991,87
+Zimbabwe,ZWE,1992,86
+Zimbabwe,ZWE,1993,86
+Zimbabwe,ZWE,1994,87
+Zimbabwe,ZWE,1995,87
+Zimbabwe,ZWE,1996,88
+Zimbabwe,ZWE,1997,84
+Zimbabwe,ZWE,1998,79
+Zimbabwe,ZWE,1999,77
+Zimbabwe,ZWE,2000,75
+Zimbabwe,ZWE,2001,73
+Zimbabwe,ZWE,2002,70
+Zimbabwe,ZWE,2003,68
+Zimbabwe,ZWE,2004,66
+Zimbabwe,ZWE,2005,67
+Zimbabwe,ZWE,2006,68
+Zimbabwe,ZWE,2007,69
+Zimbabwe,ZWE,2008,70
+Zimbabwe,ZWE,2009,76
+Zimbabwe,ZWE,2010,90
+Zimbabwe,ZWE,2011,92
+Zimbabwe,ZWE,2012,97
+Zimbabwe,ZWE,2013,93
+Zimbabwe,ZWE,2014,92
+Zimbabwe,ZWE,2015,86
+Zimbabwe,ZWE,2016,95
+Zimbabwe,ZWE,2017,90
+Zimbabwe,ZWE,2018,88
+Zimbabwe,ZWE,2019,85
+Zimbabwe,ZWE,2020,85
+Zimbabwe,ZWE,2021,88
+Zimbabwe,ZWE,2022,90
+Zimbabwe,ZWE,2023,90
+Zimbabwe,ZWE,2024,90

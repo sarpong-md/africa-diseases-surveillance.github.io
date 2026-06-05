@@ -1,0 +1,614 @@
+---
+title: "Africa Disease Surveillance"
+subtitle: "Mpox and Measles — A Reproducible R Analysis"
+author: "Adjoa Sarpong"
+date: June 2, 2026
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    toc-title: "Contents"
+    theme: flatly
+    code-fold: show
+    code-tools: true
+    embed-resources: true
+    fig-width: 8
+    fig-height: 5
+    fig-dpi: 150
+execute:
+  warning: false
+  message: false
+  echo: true
+---
+```{r}
+
+```
+
+```{r}
+#| label: load-packages-data
+#| echo: false
+library(tidyverse)
+library(scales)
+library(ggrepel)
+
+mpox_africa          <- read_csv("data_clean/mpox_africa_clean.csv",        show_col_types = FALSE)
+measles_cases_africa <- read_csv("data_clean/measles_cases_africa.csv",      show_col_types = FALSE)
+measles_cov_africa   <- read_csv("data_clean/measles_vacc_cov_africa.csv",   show_col_types = FALSE)
+
+africa_iso3 <- c(
+  "DZA","AGO","BEN","BWA","BFA","BDI","CMR","CPV","CAF","TCD","COM",
+  "COG","CIV","COD","DJI","EGY","GNQ","ERI","SWZ","ETH","GAB","GMB",
+  "GHA","GIN","GNB","KEN","LSO","LBR","LBY","MDG","MWI","MLI","MRT",
+  "MUS","MAR","MOZ","NAM","NER","NGA","RWA","STP","SEN","SYC","SLE",
+  "ZAF","SSD","SDN","TZA","TGO","TUN","UGA","ZMB","ZWE"
+)
+```
+
+## Introduction
+
+This report presents a reproducible surveillance analysis of two infectious diseases with significant burden in sub-Saharan Africa: **mpox** (monkeypox) and **measles**. Both are vaccine-preventable diseases (or vaccine-mitigable, in the case of mpox), both have disproportionately affected African populations, and both were declared or re-elevated as public health emergencies in the early 2020s.
+
+### Mpox
+
+Mpox is a viral zoonosis caused by the monkeypox virus (MPXV), historically endemic in Central and West Africa. In May 2022, a multi-country outbreak of clade IIb MPXV — spread primarily through sexual contact — prompted the WHO to declare a Public Health Emergency of International Concern (PHEIC). That PHEIC was lifted in May 2023, but a new and more dangerous threat emerged: clade 1b MPXV, which began spreading in the Democratic Republic of Congo (DRC) in 2023 and was declared a second PHEIC by WHO in **August 2024**. As of 2026, the clade 1b outbreak continues, with the DRC, Burundi, and Uganda bearing the heaviest burden.
+
+### Measles
+
+Measles is one of the most contagious infectious diseases known. The measles-containing vaccine (MCV1) is highly effective, and global vaccination campaigns in the 1980s–2000s dramatically reduced cases across Africa. However, routine immunization disruptions during the COVID-19 pandemic (2020–2022) created large cohorts of unvaccinated children, fuelling resurgences across the continent. Nigeria in particular has seen a substantial surge in reported cases since 2021.
+
+### What this report covers
+
+This report walks through:
+
+1. Where the data comes from and how to download it
+2. How the data is cleaned and standardized
+3. Six visualizations of mpox and measles trends across Africa
+4. Key epidemiological findings
+5. Instructions for reproducing, exporting, and publishing this analysis on GitHub
+
+---
+
+## Project Setup
+
+### Packages
+
+Four packages are required beyond base R:
+
+```{r}
+#| eval: false
+required_pkgs <- c("tidyverse", "lubridate", "scales", "ggrepel")
+
+installed_pkgs <- rownames(installed.packages())
+to_install     <- setdiff(required_pkgs, installed_pkgs)
+
+if (length(to_install) > 0) {
+  install.packages(to_install)
+}
+
+library(tidyverse)
+library(lubridate)
+library(scales)
+library(ggrepel)
+```
+
+**Package roles:**
+
+| Package | Role |
+|---------|------|
+| `tidyverse` | Core data wrangling (`dplyr`, `readr`, `tidyr`, `stringr`) and visualization (`ggplot2`) |
+| `lubridate` | Date parsing — the mpox dataset has a `date` column that benefits from explicit handling |
+| `scales` | Axis formatting: `comma` for large case counts, `log10` scale for the scatter plot |
+| `ggrepel` | Prevents overlapping text labels in the coverage-vs-cases scatter plot |
+
+### The `setdiff()` install pattern
+
+```r
+to_install <- setdiff(required_pkgs, installed_pkgs)
+```
+
+`setdiff(A, B)` returns elements in `A` that are not in `B`. This avoids reinstalling packages that are already present, making the setup script safe to re-run. Combined with `if (length(to_install) > 0)`, we only call `install.packages()` when something is actually missing.
+
+### Directory structure
+
+```{r}
+#| eval: false
+dirs <- c("data_raw", "data_clean", "figures", "docs", "R")
+for (d in dirs) dir.create(d, showWarnings = FALSE, recursive = TRUE)
+```
+
+`dir.create()` with `showWarnings = FALSE` is silent if the folder already exists, making it safe to include in scripts that may be run more than once. `recursive = TRUE` creates intermediate directories if needed.
+
+---
+
+## Data Sources
+
+All three data sources used in this project are publicly available and carry open licenses.
+
+| Dataset | Source | Update frequency | License |
+|---------|--------|-----------------|---------|
+| Mpox confirmed cases & deaths | [Our World in Data / WHO](https://github.com/owid/monkeypox) | Hourly (from WHO) | CC BY 4.0 |
+| Measles reported cases | [Our World in Data](https://ourworldindata.org/grapher/reported-cases-of-measles) | Annual (WHO reporting) | CC BY 4.0 |
+| Measles MCV1 vaccination coverage | [Our World in Data](https://ourworldindata.org/grapher/share-of-children-vaccinated-against-measles) | Annual (UNICEF/WHO) | CC BY 4.0 |
+
+**Mpox data note:** The OWID monkeypox repository originally tracked the 2022 clade IIb outbreak. As of August 2024, it switched to using WHO data for confirmed cases and the Africa CDC for suspected cases. The GitHub CSV (`owid-monkeypox-data.csv`) is still updated and is the source used here.
+
+**Measles data note:** OWID's measles datasets use WHO-reported case counts and UNICEF/WHO joint vaccination estimates, respectively. Both go back to the 1970s for many countries.
+
+---
+
+## Downloading the Data
+
+```{r}
+#| eval: false
+# ---- Mpox ----
+mpox_url      <- "https://raw.githubusercontent.com/owid/monkeypox/main/owid-monkeypox-data.csv"
+mpox_raw_path <- file.path("data_raw", "mpox_owid.csv")
+download.file(mpox_url, destfile = mpox_raw_path, mode = "wb")
+
+# ---- Measles cases ----
+measles_cases_url  <- paste0(
+  "https://ourworldindata.org/grapher/reported-cases-of-measles.csv",
+  "?v=1&csvType=full&useColumnShortNames=false"
+)
+measles_cases_path <- file.path("data_raw", "measles_reported_cases_owid.csv")
+download.file(measles_cases_url, destfile = measles_cases_path, mode = "wb")
+
+# ---- Measles vaccination coverage ----
+measles_cov_url  <- paste0(
+  "https://ourworldindata.org/grapher/share-of-children-vaccinated-against-measles.csv",
+  "?v=1&csvType=full&useColumnShortNames=false"
+)
+measles_cov_path <- file.path("data_raw", "measles_vaccination_coverage_owid.csv")
+download.file(measles_cov_url, destfile = measles_cov_path, mode = "wb")
+```
+
+### Key argument: `mode = "wb"`
+
+`download.file()` accepts a `mode` argument that controls how bytes are written to disk. Using `mode = "wb"` ("write binary") is essential on Windows, where the default text mode (`"w"`) converts line endings from Unix `\n` to Windows `\r\n`. This can corrupt binary or mixed-format files. Using `"wb"` guarantees identical bytes between platforms and is safe for both text CSVs and binary formats.
+
+### Why save raw data before processing?
+
+Saving raw downloads to `data_raw/` before any cleaning is a reproducibility discipline: it lets you re-run the cleaning step independently without re-downloading, inspect what the source actually provided, and audit any differences when the upstream data is updated.
+
+---
+
+## Cleaning and Standardizing
+
+```{r}
+#| eval: false
+library(tidyverse)
+
+africa_iso3 <- c(
+  "DZA","AGO","BEN","BWA","BFA","BDI","CMR","CPV","CAF","TCD","COM",
+  "COG","CIV","COD","DJI","EGY","GNQ","ERI","SWZ","ETH","GAB","GMB",
+  "GHA","GIN","GNB","KEN","LSO","LBR","LBY","MDG","MWI","MLI","MRT",
+  "MUS","MAR","MOZ","NAM","NER","NGA","RWA","STP","SEN","SYC","SLE",
+  "ZAF","SSD","SDN","TZA","TGO","TUN","UGA","ZMB","ZWE"
+)
+
+# Mpox
+mpox_africa <- read_csv("data_raw/mpox_owid.csv", show_col_types = FALSE) |>
+  rename(code = iso_code, entity = location) |>
+  filter(code %in% africa_iso3) |>
+  select(entity, code, date, total_cases, new_cases,
+         total_deaths, new_deaths, new_cases_smoothed)
+
+write_csv(mpox_africa, "data_clean/mpox_africa_clean.csv")
+
+# Measles cases
+measles_cases_africa <- read_csv("data_raw/measles_reported_cases_owid.csv",
+                                  show_col_types = FALSE) |>
+  rename(entity = Entity, code = Code, year = Year,
+         cases  = `Measles - number of reported cases`) |>
+  filter(code %in% africa_iso3)
+
+write_csv(measles_cases_africa, "data_clean/measles_cases_africa.csv")
+
+# Measles vaccination coverage
+measles_cov_africa <- read_csv("data_raw/measles_vaccination_coverage_owid.csv",
+                                show_col_types = FALSE) |>
+  rename(entity = Entity, code = Code, year = Year,
+         mcv1_pct = `Measles, first dose (MCV1)`) |>
+  filter(code %in% africa_iso3)
+
+write_csv(measles_cov_africa, "data_clean/measles_vacc_cov_africa.csv")
+```
+
+### The Africa ISO3 filter vector
+
+The `africa_iso3` character vector contains the ISO 3166-1 alpha-3 codes for all 53 African Union member states. ISO3 codes are used — rather than country names — because:
+
+- **Stability:** Country names vary across datasets ("Democratic Republic of Congo", "Congo, DR", "DRC") but ISO3 codes are fixed.
+- **Mergeability:** All three data sources use ISO3 as their country identifier, making `africa_iso3` a reliable filter key across all of them.
+- **Exclusion of aggregates:** The OWID mpox file includes regional aggregates like `OWID_AFR` (Africa total) and `OWID_WRL` (World). These non-standard codes are automatically excluded by filtering to `africa_iso3`, which only contains standard country-level codes.
+
+`filter(code %in% africa_iso3)` keeps only rows where the code appears in the vector. `%in%` is vectorized: it tests each element of `code` against every element of `africa_iso3` and returns `TRUE` wherever a match is found.
+
+### Standardizing OWID column names
+
+Our World in Data CSVs use title-case columns by default: `Entity`, `Code`, `Year`, plus a long descriptive name for the value column (e.g., `"Measles - number of reported cases"`). We `rename()` these to consistent snake_case on read:
+
+```r
+rename(entity = Entity, code = Code, year = Year,
+       cases  = `Measles - number of reported cases`)
+```
+
+The backticks around `` `Measles - number of reported cases` `` are required because the column name contains spaces and a hyphen — characters that would otherwise be parsed as R operators. After renaming, all column references throughout the project use short, lowercase names with no backticks needed.
+
+### A debugging note: `str_detect()` and `ignore_case`
+
+During development, the original script used:
+
+```r
+# ❌ Error: "unused argument (ignore_case = TRUE)"
+str_detect(names(df), "iso3|country_iso", ignore_case = TRUE)
+```
+
+This fails because `str_detect()` does not accept `ignore_case` as a direct argument. It accepts only a `pattern` and optionally `negate`. Case-insensitivity in `stringr` is a **regex-level** setting, not a detector-level setting. The correct form wraps the pattern in `regex()`:
+
+```r
+# ✅ Correct
+str_detect(names(df), regex("iso3|country_iso", ignore_case = TRUE))
+```
+
+This is a common mistake when coming from base R's `grep(x, ignore.case = TRUE)`, where the option is passed directly to the function.
+
+### Dataset dimensions after cleaning
+
+```{r}
+#| echo: false
+tibble(
+  Dataset      = c("Mpox (daily)", "Measles cases (annual)", "Measles coverage (annual)"),
+  Rows         = c(nrow(mpox_africa), nrow(measles_cases_africa), nrow(measles_cov_africa)),
+  Countries    = c(n_distinct(mpox_africa$code),
+                   n_distinct(measles_cases_africa$code),
+                   n_distinct(measles_cov_africa$code)),
+  `Date range` = c(paste(range(mpox_africa$date), collapse = " → "),
+                   paste(range(measles_cases_africa$year), collapse = " → "),
+                   paste(range(measles_cov_africa$year), collapse = " → "))
+) |>
+  knitr::kable()
+```
+
+---
+
+## Mpox in Africa
+
+### Background
+
+Mpox has been endemic in parts of Central and West Africa for decades, but it attracted limited global attention until the 2022 multi-country outbreak. The landscape shifted dramatically in 2023–2024 with the emergence of **clade 1b MPXV** in the DRC. Unlike clade IIb (which spread predominantly through sexual contact), clade 1b spreads through household and community contact, as well as sexual transmission — making it harder to contain and more dangerous for children. The WHO declared this a second PHEIC in August 2024.
+
+### Figure 1 — Total confirmed cases by country
+
+```{r}
+#| label: fig-mpox-countries
+#| fig-cap: "Top 15 African countries by cumulative confirmed mpox cases. The DRC accounts for the majority of cases due to long-standing endemic transmission and the recent clade 1b surge."
+mpox_africa |>
+  group_by(entity, code) |>
+  summarise(total = max(total_cases, na.rm = TRUE), .groups = "drop") |>
+  filter(!is.na(total), total > 0) |>
+  slice_max(total, n = 15) |>
+  mutate(entity = fct_reorder(entity, total)) |>
+  ggplot(aes(x = total, y = entity)) +
+  geom_col() +
+  scale_x_continuous(labels = comma) +
+  labs(
+    title    = "Confirmed mpox cases by African country (cumulative to 2026)",
+    subtitle = "Top 15 countries — Source: WHO via Our World in Data",
+    x = "Total confirmed cases", y = NULL
+  )
+```
+
+**Code explanation:**
+
+- `group_by(entity, code) |> summarise(total = max(total_cases, na.rm = TRUE))` — Each country has one row per day in the mpox data. `max(total_cases)` extracts the most recent cumulative total for each country. `na.rm = TRUE` handles countries where total_cases is `NA` for some dates.
+- `slice_max(total, n = 15)` — Keeps the 15 rows with the highest totals. Unlike `top_n()` (deprecated), `slice_max()` handles ties and `NA` values cleanly.
+- `fct_reorder(entity, total)` — Reorders the y-axis factor levels by `total`, so the bars appear in descending order from top to bottom. Without this, ggplot uses alphabetical order, which is rarely informative for a ranked chart.
+- `scale_x_continuous(labels = comma)` — Formats the x-axis with comma separators (e.g., 10,000 instead of 10000). `comma` is a formatter function from the `scales` package.
+
+### Figure 2 — DRC: cumulative mpox cases over time
+
+```{r}
+#| label: fig-mpox-drc
+#| fig-cap: "The DRC's cumulative mpox case count reflects both long-standing endemic transmission and the accelerating clade 1b outbreak that began in late 2023."
+mpox_africa |>
+  filter(code == "COD") |>
+  ggplot(aes(x = date, y = total_cases)) +
+  geom_line(color = "firebrick") +
+  scale_y_continuous(labels = comma) +
+  labs(
+    title    = "Democratic Republic of Congo: cumulative confirmed mpox cases",
+    subtitle = "Epicenter of the clade 1b outbreak — Source: WHO via OWID",
+    x = "Date", y = "Total confirmed cases"
+  )
+```
+
+**Code explanation:**
+
+- `filter(code == "COD")` — "COD" is the ISO3 code for the Democratic Republic of the Congo (not to be confused with "COG" = Republic of the Congo).
+- A cumulative total line chart is used rather than new daily cases because cumulative totals are smoother and better convey the overall scale of an outbreak. Daily new case counts are erratic due to reporting delays and batch reporting.
+- The steepening slope visible in 2024–2025 reflects the acceleration of the clade 1b outbreak.
+
+### Figure 3 — Ghana: 7-day smoothed new mpox cases
+
+```{r}
+#| label: fig-mpox-ghana
+#| fig-cap: "Ghana's mpox trajectory, smoothed over a 7-day window to reduce day-of-week reporting noise. The 2025–2026 surge is notable."
+mpox_africa |>
+  filter(code == "GHA") |>
+  ggplot(aes(x = date, y = new_cases_smoothed)) +
+  geom_line(color = "steelblue") +
+  labs(
+    title    = "Ghana: mpox new cases (7-day rolling average)",
+    subtitle = "Source: WHO via Our World in Data",
+    x = "Date", y = "New cases (7-day smoothed)"
+  )
+```
+
+**Code explanation:**
+
+- `new_cases_smoothed` is pre-computed by OWID as a 7-day rolling mean of `new_cases`. This column is present in the raw data and does not require us to compute it manually.
+- Smoothing is important because public health surveillance systems often report cases in batches (e.g., weekly dumps on Fridays), creating artificial spikes on certain weekdays and near-zero counts on others. A 7-day rolling mean averages out these artifacts while preserving the underlying trend.
+- The raw `new_cases` column is retained in the clean dataset alongside `new_cases_smoothed` so either can be used depending on the analysis goal.
+
+---
+
+## Measles in Africa
+
+### Background
+
+Measles remains one of the leading vaccine-preventable causes of child mortality globally. Africa carries a disproportionate share of the burden: despite measles vaccination coverage exceeding 70% in most African countries by 2015, large sub-national gaps and post-pandemic immunization disruptions have sustained outbreaks. MCV1 — the first dose of measles-containing vaccine, administered to one-year-olds — is the primary intervention tracked here.
+
+### Figure 4 — Ghana: historical measles cases (1974–present)
+
+```{r}
+#| label: fig-measles-ghana
+#| fig-cap: "Ghana's long-term measles case history. The steep decline from the 1970s peak reflects the introduction and scale-up of the Expanded Programme on Immunization (EPI) in the 1980s."
+measles_cases_africa |>
+  filter(code == "GHA") |>
+  ggplot(aes(x = year, y = cases)) +
+  geom_line(color = "firebrick") +
+  scale_y_continuous(labels = comma) +
+  labs(
+    title    = "Ghana: reported measles cases (1974–present)",
+    subtitle = "Source: WHO via Our World in Data",
+    x = "Year", y = "Reported cases"
+  )
+```
+
+**Code explanation:**
+
+- The y-axis spans several orders of magnitude (from ~200,000 cases in the late 1970s to near-zero in the 2000s), so `comma` formatting on a linear scale still works here, but the scatter plot in Figure 6 will use a log scale for cross-country comparisons where the range is even wider.
+- Note that "reported cases" is not the same as "true incidence." Reporting completeness has improved over time, which can make declines appear steeper than true incidence reductions. Both real reductions and improved surveillance quality contribute to the long-run decline.
+
+### Figure 5 — Six countries: measles cases and MCV1 coverage
+
+```{r}
+#| label: fig-measles-multicountry
+#| fig-height: 7
+#| fig-cap: "Cases (bottom panel) and vaccination coverage (top panel) for six high-burden African countries. The inverse relationship — rising coverage, falling cases — is broadly visible, though Nigeria's recent resurgence shows that coverage gaps can persist even in countries with nominally high averages."
+selected_countries <- c("NGA", "COD", "ETH", "GHA", "UGA", "CMR")
+
+measles_cases_africa |>
+  inner_join(measles_cov_africa, by = c("entity", "code", "year")) |>
+  filter(code %in% selected_countries) |>
+  pivot_longer(
+    cols      = c(cases, mcv1_pct),
+    names_to  = "metric",
+    values_to = "value"
+  ) |>
+  mutate(metric = recode(metric,
+                         "cases"    = "Reported measles cases",
+                         "mcv1_pct" = "MCV1 vaccination coverage (%)")) |>
+  ggplot(aes(x = year, y = value, color = entity)) +
+  geom_line() +
+  facet_wrap(~ metric, scales = "free_y", nrow = 2) +
+  labs(
+    title    = "Measles cases and MCV1 coverage — selected African countries",
+    subtitle = "Source: WHO / UNICEF via Our World in Data",
+    x = "Year", y = NULL, color = NULL
+  ) +
+  theme(legend.position = "bottom")
+```
+
+**Code explanation:**
+
+- `inner_join(..., by = c("entity", "code", "year"))` — Joins the cases and coverage datasets by matching on all three identifying columns. Using `inner_join` (rather than `left_join`) means we keep only years where both datasets have a value for a given country — avoiding spurious `NA` rows in the plot.
+- `pivot_longer(cols = c(cases, mcv1_pct), names_to = "metric", values_to = "value")` — Converts from "wide" format (two separate value columns) to "long" format (one `metric` column and one `value` column). This is the structure ggplot expects for faceting.
+- `recode(metric, ...)` — Replaces the column names (`"cases"`, `"mcv1_pct"`) with human-readable facet labels. `recode()` applies a named lookup; any values not listed are left unchanged.
+- `facet_wrap(~ metric, scales = "free_y", nrow = 2)` — Creates two panels stacked vertically, one for each metric. `scales = "free_y"` is critical: without it, both panels share the same y-axis range, which would compress the vaccination coverage panel (0–100%) to near-flat next to the cases panel (which spans 0 to 300,000+).
+
+### Figure 6 — MCV1 coverage vs. measles case burden (scatter)
+
+```{r}
+#| label: fig-measles-scatter
+#| fig-cap: "Each point is a country; values are 5-year averages of annual MCV1 coverage and reported cases. The log scale on the y-axis handles the wide range of case counts across countries. Countries with near-complete coverage tend to cluster near zero cases on the log scale."
+measles_cases_africa |>
+  inner_join(measles_cov_africa, by = c("entity", "code", "year")) |>
+  filter(year >= max(year) - 4) |>
+  group_by(entity, code) |>
+  summarise(
+    avg_cases = mean(cases,    na.rm = TRUE),
+    avg_mcv1  = mean(mcv1_pct, na.rm = TRUE),
+    .groups   = "drop"
+  ) |>
+  filter(avg_cases > 0, !is.na(avg_mcv1)) |>
+  ggplot(aes(x = avg_mcv1, y = avg_cases)) +
+  geom_point() +
+  geom_text_repel(aes(label = code), size = 2.5, max.overlaps = 25) +
+  scale_y_log10(labels = comma) +
+  labs(
+    title    = "MCV1 coverage vs. measles case burden (5-year average)",
+    subtitle = "Higher coverage is broadly associated with fewer reported cases — Source: OWID",
+    x = "MCV1 coverage (% of 1-year-olds vaccinated)",
+    y = "Mean annual reported cases (log scale)"
+  )
+```
+
+**Code explanation:**
+
+- `filter(year >= max(year) - 4)` — Keeps the 5 most recent years of data (from `max(year) - 4` to `max(year)`). This creates a recent-average that is more relevant to current epidemiology than an all-time average.
+- `group_by(entity, code) |> summarise(avg_cases = mean(...), avg_mcv1 = mean(...))` — Collapses each country's 5-year window to a single point.
+- `filter(avg_cases > 0, !is.na(avg_mcv1))` — Removes countries with zero average cases (often reflects missing data, not true elimination) and countries with no coverage data.
+- `geom_text_repel(aes(label = code), ...)` — Adds ISO3 code labels to each point with automatic collision avoidance. Without `ggrepel`, labels on clustered points overlap and become unreadable. `max.overlaps = 25` is a ceiling on how many overlapping labels the algorithm will try to reposition; increasing it avoids silently dropping labels.
+- `scale_y_log10(labels = comma)` — A log₁₀ scale is appropriate when values span multiple orders of magnitude (e.g., 50 to 300,000 cases). `comma` from `scales` formats the log-scale axis labels with thousand separators so they remain readable.
+
+---
+
+## Key Findings
+
+**Mpox:**
+
+- **DRC dominates the African case count** by a wide margin, reflecting both long-standing endemic clade I transmission and the accelerating clade 1b outbreak declared a PHEIC in August 2024.
+- **36 of 53 African countries** have reported at least one confirmed mpox case since 2022, suggesting regional spread well beyond the traditional DRC epicenter.
+- **Ghana's 2025–2026 surge** is notable: after years of near-zero transmission, new cases rose sharply, likely reflecting clade IIb community spread rather than clade 1b importation, though ongoing surveillance is needed.
+
+**Measles:**
+
+- **The long-run trajectory is positive:** vaccination coverage has risen from near-zero in the 1970s to 60–90% across most of the selected countries, and cases declined correspondingly across the 1980s–2000s.
+- **Nigeria's recent resurgence is the most striking outlier:** its reported case count has risen sharply since ~2020, becoming the dominant driver of recent African measles burden despite having moderate (not low) MCV1 coverage. This points to large sub-national gaps, particularly in northern states with historically low coverage.
+- **The coverage-cases scatter (Figure 6)** shows a broadly negative relationship — countries with higher MCV1 coverage tend to report fewer cases — but the relationship is noisy, consistent with the known importance of coverage equity (uniform coverage) over mean coverage alone.
+- **DRC remains high-burden for measles too**, reinforcing that it faces a compounded infectious disease crisis.
+
+---
+
+## Reproducing This Analysis
+
+### Prerequisites
+
+- R ≥ 4.2.0
+- [Quarto CLI](https://quarto.org/docs/get-started/) (for rendering the report)
+- Internet access (for downloading raw data)
+
+### Quick start
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/africa-disease-surveillance.git
+   cd africa-disease-surveillance
+   ```
+
+2. Open `africa_disease_surveillance.Rproj` in RStudio (this sets the working directory to the project root).
+
+3. Run the full pipeline:
+   ```r
+   source("R/04_run_all.R")
+   ```
+   This downloads fresh data, cleans it, and saves all 6 figures.
+
+4. Render this report:
+   ```r
+   quarto::quarto_render("africa_surveillance_report.qmd", output_dir = "docs")
+   ```
+   The rendered HTML will appear at `docs/index.html`.
+
+### Updating the data
+
+Because `R/01_download.R` always fetches the latest version of each dataset, re-running `source("R/04_run_all.R")` is sufficient to refresh everything. The OWID mpox dataset is updated hourly; the measles datasets update annually.
+
+---
+
+## Exporting Results
+
+### Figures
+
+All 6 plots are saved as PNG files in `figures/` by `R/03_visualize.R` via `ggsave()`. They can be used directly in presentations, reports, or other documents.
+
+```
+figures/
+├── 01_mpox_total_cases_by_country.png
+├── 02_mpox_drc_cumulative.png
+├── 03_mpox_ghana_smoothed.png
+├── 04_measles_ghana_historical.png
+├── 05_measles_multicountry_comparison.png
+└── 06_measles_coverage_vs_cases_scatter.png
+```
+
+To change figure dimensions or resolution, edit the `width`, `height`, and `dpi` arguments in the `ggsave()` calls in `R/03_visualize.R`.
+
+### Clean data (CSV)
+
+The three Africa-filtered datasets in `data_clean/` are committed to the repository and can be opened in Excel, Python, or any statistical software:
+
+```
+data_clean/
+├── mpox_africa_clean.csv        # 36 countries, daily, 2022–present
+├── measles_cases_africa.csv     # 53 countries, annual, 1974–present
+└── measles_vacc_cov_africa.csv  # 53 countries, annual, 1980–present
+```
+
+### Rendered HTML report
+
+```r
+quarto::quarto_render("africa_surveillance_report.qmd", output_dir = "docs")
+```
+
+This produces `docs/index.html` — a standalone, self-contained HTML file (all assets embedded) that can be opened in any browser or served via GitHub Pages.
+
+---
+
+## Publishing to GitHub
+
+### Step 1 — Initialize git
+
+In your project root, run (Terminal tab in RStudio, or any shell):
+
+```bash
+git init
+git add .
+git commit -m "Initial commit: Africa disease surveillance project"
+```
+
+### Step 2 — Create the GitHub repository
+
+**Option A — GitHub CLI (if installed):**
+```bash
+gh repo create africa-disease-surveillance \
+  --public \
+  --description "Mpox and measles surveillance in Africa using WHO and OWID data" \
+  --source=. --remote=origin --push
+```
+
+**Option B — Manual via GitHub.com:**
+1. Go to [https://github.com/new](https://github.com/new)
+2. Name the repository `africa-disease-surveillance`
+3. Leave it empty (no README, no .gitignore — you already have both)
+4. Copy the repository URL, then:
+```bash
+git remote add origin https://github.com/<your-username>/africa-disease-surveillance.git
+git branch -M main
+git push -u origin main
+```
+
+### Step 3 — Enable GitHub Pages
+
+To host the rendered report publicly:
+
+1. Go to your repository on GitHub → **Settings** → **Pages**
+2. Under "Source", select **Deploy from a branch**
+3. Branch: `main`, Folder: `/docs`
+4. Click **Save**
+
+Within a few minutes, your report will be live at:
+`https://<your-username>.github.io/africa-disease-surveillance/`
+
+### What gets committed vs. ignored
+
+| Path | Committed? | Reason |
+|------|-----------|--------|
+| `R/*.R` | ✅ Yes | Source code |
+| `africa_surveillance_report.qmd` | ✅ Yes | Report source |
+| `data_clean/*.csv` | ✅ Yes | Small, Africa-filtered |
+| `figures/*.png` | ✅ Yes | Output figures |
+| `docs/index.html` | ✅ Yes | Rendered report for Pages |
+| `data_raw/*.csv` | ❌ No (gitignored) | Large raw files; re-downloaded by script |
+| `.Rhistory`, `.RData` | ❌ No (gitignored) | Session artifacts |
+
+---
+
+## Session Info
+
+```{r}
+sessionInfo()
+```
